@@ -17,7 +17,7 @@
                         </ItemTemplate>
                     </asp:Repeater>
                 </ul> 
-            </div>
+            </div> 
         </div>
         <div class="portfolio-grid">
             <ul id="thumbs">
