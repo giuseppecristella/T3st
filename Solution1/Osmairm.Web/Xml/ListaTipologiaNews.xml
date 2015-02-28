@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<News>
+	 
+
+  <TipoNews>
+  <TipoNews_Item>
+    <Descrizione_Tipologia>xpure-2013</Descrizione_Tipologia>
+    <Id_TipologiaNews>10</Id_TipologiaNews>
+
+  </TipoNews_Item>
+  </TipoNews>
+
+  <TipoNews>
+    <TipoNews_Item>
+      <Descrizione_Tipologia>x4-2012</Descrizione_Tipologia>
+      <Id_TipologiaNews>11</Id_TipologiaNews>
+
+    </TipoNews_Item>
+  </TipoNews>
+ 
+</News>

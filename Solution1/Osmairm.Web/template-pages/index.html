@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+ 
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+<meta name="viewport" content="width=device-width" />
+<title>Osmairm - Centri di Riabilitazione Neuropsicomotoria</title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/blog.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/socialize-bookmarks.css" media="screen" />
+
+<!--[if lt IE 8]>
+	<link href="css/ie8.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+<script type="text/javascript" src="javascript/jquery.1.4.4.js"></script>
+<script type="text/javascript" src="javascript/custom.js"></script>
+<script type="text/javascript" src="javascript/twitter.js"></script>
+
+<!-- Photostream Javascript --> 
+<script type="text/javascript" src="javascript/bra.photostream.js"></script>
+
+<!-- PrettyPhoto --> 
+<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" />
+<script type="text/javascript" src="javascript/prettyPhoto.js"></script>
+
+<!-- Supersized Background --> 
+<link rel="stylesheet" type="text/css" href="css/supersized.css" media="screen" />
+<script type="text/javascript" src="javascript/jquery.easing.min.js"></script>
+<script type="text/javascript" src="javascript/supersized.3.2.7.min.js"></script>
+<script type="text/javascript" src="javascript/supersized.shutter.min.js"></script>
+		
+<script type="text/javascript">			
+	jQuery(function($){				
+		$.supersized({				
+			// Functionality
+			slideshow               :   1,			// Slideshow on/off
+			autoplay				:	1,			// Slideshow starts playing automatically
+			start_slide             :   1,			// Start slide (0 is random)
+			stop_loop				:	0,			// Pauses slideshow on last slide
+			random					: 	0,			// Randomize slide order (Ignores start slide)
+			slide_interval          :   3000,		// Length between transitions
+			transition              :   1, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+			transition_speed		:	1000,		// Speed of transition
+			new_window				:	0,			// Image links open in new window/tab
+			pause_hover             :   0,			// Pause slideshow on hover
+			keyboard_nav            :   1,			// Keyboard navigation on/off
+			performance				:	1,			// 0-Normal, 1-Hybrid speed/quality, 2-Optimizes image quality, 3-Optimizes transition speed // (Only works for Firefox/IE, not Webkit)
+			image_protect			:	1,			// Disables image dragging and right click with Javascript
+															   
+			// Size & Position						   
+			min_width		        :   0,			// Min width allowed (in pixels)
+			min_height		        :   0,			// Min height allowed (in pixels)
+			vertical_center         :   1,			// Vertically center background
+			horizontal_center       :   1,			// Horizontally center background
+			fit_always				:	0,			// Image will never exceed browser width or height (Ignores min. dimensions)
+			fit_portrait         	:   1,			// Portrait images will not exceed browser height
+			fit_landscape			:   0,			// Landscape images will not exceed browser width
+															   
+			// Components							
+			slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
+			thumb_links				:	1,			// Individual thumb links for each slide
+			thumbnail_navigation    :   0,			// Thumbnail navigation
+			slides 					:  	[			// Slideshow Images
+			{image: 'images/slider-1.jpg', title: 'Osmairm Centro di riabilitazione' },
+			{ image: 'images/slider-2.jpg', title: 'Linhof technika' },
+			{ image: 'images/slider-3.jpg', title: 'Bokeh chair, mokrin' },
+			{ image: 'images/slider-4.jpg', title: 'Image Credit: Colin Wojno' },
+			{ image: 'images/slider-5.jpg', title: 'Shadows, mokrin' }
+												],
+												
+			// Theme Options			   
+			progress_bar			:	1,			// Timer for each slide							
+			mouse_scrub				:	0
+					
+		});
+    });		    
+</script>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<!-- START HEADER -->
+
+<div id="header-wrapper">
+
+	<div class="header">	
+		
+		<div id="logo">	
+			<a href="index.html"><img src="images/logo.png" alt="" /></a>	
+		</div><!--END LOGO-->
+		
+		<div id="primary-menu">
+				 
+			<!--<ul class="menu">
+				<li><a href="index.html" class="current">Home</a></li>
+				<li><a href="portfolio.html">Work</a></li>
+				<li><a href="blog.html">Blog</a>
+					<ul>
+						<li><a href="blog.html">Blog fullwidth</a></li>
+						<li><a href="blog-sidebar.html">Blog with sidebar</a></li>
+						<li><a href="blog-single.html">Blog single page 1</a></li>	
+						<li><a href="blog-single2.html">Blog single page 2</a></li>	
+						<li><a href="blog-single3.html">Blog single page 3</a></li>	
+					</ul>	
+				</li>
+				<li><a href="elements.html">Elements</a></li>
+				<li><a href="#">Pages</a>		
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="portfolio2.html">Portfolio - Masonry</a></li>
+						<li><a href="portfolio-single.html">Portfolio single page</a></li>
+						<li><a href="blog.html">Blog</a>
+							<ul>
+								<li><a href="blog.html">Blog fullwidth</a></li>
+								<li><a href="blog-sidebar.html">Blog with sidebar</a></li>
+								<li><a href="blog-single.html">Blog single page 1</a></li>	
+								<li><a href="blog-single2.html">Blog single page 2</a></li>	
+								<li><a href="blog-single3.html">Blog single page 3</a></li>	
+							</ul>	
+						</li>
+						<li><a href="showreel.html">Showreel</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="archive.html">Archive</a></li>
+						<li><a href="about-us.html">About us</a></li>
+						<li><a href="elements.html">Elements</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="error-404-page.html">404 Error page</a></li>
+					</ul>		
+				</li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>END UL MENU-->
+				
+		</div> 
+		    <!--END PRIMARY MENU-->
+                <ul class="social-bookmarks">
+                <li class="infoLanding"><a>info@osmairm.it - tel.+39 099 821 6213</a></li>
+                    
+                    <!--<li class="prenotazioni">
+               <a class="trigger-header" href="#">
+                                Prenotazioni</a>
+                    </li>-->
+                  
+                </ul>
+                <!--END SOCIAL-BOOKMARKS-->
+		
+		         
+        <div id="back-top">
+         	<a href="#">Back to Top</a> 
+        </div><!--END BACK-TOP-->		
+		
+	</div><!--END HEADER-->	
+
+</div><!--END HEADER-WRAPPER-->
+
+<!-- END HEADER -->	
+	
+<div class="load-item">
+ 
+</div>
+
+
+<div id="controls-wrapper" class="load-item">
+
+<!--	<div id="controls">
+	
+		<a id="prevslide" class="load-item"></a>
+		<a id="nextslide" class="load-item"></a>
+		
+		<div id="slidecounter">
+			<span class="slidenumber"></span> / <span class="totalslides"></span>		
+		</div> 
+			
+		<div id="slidecaption"></div> 
+		
+	</div> -->
+		
+	<ul id="slide-list"></ul>
+	
+</div> 
+
+</div><!--END WRAPPER-->
+
+ 
+
+</body>
+
+ </html>

@@ -1,0 +1,64 @@
+﻿input.submit:hover {
+	background-color: #FEEB43;
+}
+.error .left {
+	color: #FEEB43;
+}
+.error .right {
+	background-color: #FEEB43;
+}
+#back-top a:hover {
+	background-color: #FEEB43;
+}
+#primary-menu ul ul li a:hover { 
+    background-color: #fff; 
+}
+.skills-graph li span {
+	background-color:#FEEB43;
+}
+.button.grey:hover {
+	background-color: #FEEB43;
+}
+.highlight1 {
+	background-color: #FEEB43;
+}
+.post-media.link a:hover {
+	background-color: #FEEB43;
+}
+#load-more a:hover, #load-more a.active {
+	background-color: #FEEB43;
+}
+.wp-pagenavi a:hover, .wp-pagenavi span.current {
+	background-color: #FEEB43;
+} 
+#comment-list .reply a:hover {
+	background-color: #FEEB43;
+}
+.tags a { /*tags celesti 00A9DE*/
+	background-color: #FEEB43;
+	 
+}
+.archive-list ul li a:hover {	
+	background-color: #FEEB43; 
+}
+.archive-list .tags a:hover {	
+	background-color: #FEEB43; 
+}
+#comment-list ul.children .reply a:hover {	
+	background-color: #FEEB43; 
+}
+.flex-direction-nav a:hover {	
+	background-color: #FEEB43; 
+}
+div.jp-play-bar {
+	background-color: #FEEB43;
+}
+div.jp-volume-bar-value {
+	background-color: #FEEB43;
+}
+ul.item-nav li:hover {
+	background-color: #FEEB43;
+}
+#prevslide:hover, #nextslide:hover  {	
+	background-color: #FEEB43; 
+}

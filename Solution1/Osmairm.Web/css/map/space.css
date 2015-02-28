@@ -1,0 +1,1960 @@
+
+/* --------------------------------------------------------------------------------------------
+ * LAYOUT STRUCTURE *here just specify the widths heights of the layout (don't introduce backgrounds colors etc.)
+ *-------------------------------------------------------------------------------------------- */
+.titolo_maiuscolo{
+	text-transform: uppercase;
+}
+a.by_intoscana{
+	float: right;
+	margin: 0 10px 0 0;
+}
+div #header{
+	width: 100%;
+	height: 112px;
+	margin: 0 auto;
+	background: url(../img/top_striscia_rossa_piccola.png) repeat-x;
+}
+#body_wrap{
+	width: 100%;
+	min-height: 100%;
+	margin: 0 auto;
+	background: #FFFFFF;
+	position: relative;
+}
+div.header_content{
+	width: 1024px;
+	height: 112px;
+	background: #FFFFFF url(../img/top_striscia_rossa.png) repeat-x;
+	float: left;
+	padding-left: 50%;
+	margin: 0 0 0 -512px;
+}
+	div.header_content div.header_logo{
+		width: 66px;
+		height: 112px;
+		margin: 0 0 0 37px;
+		float: left;
+	}
+	div.header_content div.header_wolking{
+		width: 135px;
+		height: 112px;
+		float: left;
+		margin-left:13px;
+	}
+	div.header_content div.header_menu_content_g{
+		height: 58px;
+		margin: 11px 0 0 0;
+		float: right;
+		/*min-width: 200px;*/
+		overflow: hidden;
+	}
+			
+		div.header_menu_content_g div.menu_cent{
+			height: 58px;
+			float: right;
+			background: url(../img/top_sx_menu.png) left no-repeat;
+			padding: 0 0 0 62px;
+		}
+		div.header_menu_content_g ul.menu_cent{
+			background: url(../img/top_striscia_menu.png) repeat-x;
+			padding: 16px 0 0 0;
+			margin: 0 0 0 0;
+			height: 42px;
+		}
+			
+		div.header_content div.header_menu_content_p{
+			width: 100%;
+			display: none;
+			margin: 0 0 0 0;
+			float: right;
+		}
+			
+		div.header_content div.header_menu_content_p #menu_mini{
+			width: 100%;
+			font-size: 14px;
+		}
+		
+		div.header_content div.lang_cerca{
+			width: auto;
+			margin: 20px 37px 0 0;
+			height: 23px;
+			line-height: 23px;
+			float:right;
+		}
+		
+		div.header_content #lang_cerca{
+			width: 315px;
+			margin: 0;
+			height: 23px;
+			line-height: 23px;
+			float:right;
+		}
+			#lang_cerca div.lang_cont{
+				float: left;
+				width: auto;
+			}
+				div.lang_cont a.lang{
+					width:16px;
+					height:11px;
+					float:left;
+					padding:1px;
+					margin: 5px 7px 0 0;
+				}
+				div.lang_cont a.actived, div.lang_cont a.lang:hover{
+					background: #FFFFFF;
+				}
+				div.lang_cont a.lang img{
+					float:left;
+				}
+		#lang_cerca div.cerca_cont{
+			float: right;
+		}
+			#lang_cerca div.cerca_cont input.input_img{
+				float: right;
+			}
+		#lang_cerca div.cerca_cont input.ricerca{
+			width: 210px;
+			height: 23px;
+			line-height: 23px;
+			border: 0;
+			margin: 0;
+			padding: 0 0 0 5px;
+			float: left;
+			color: #CCCCCC;
+		}
+		
+
+div.page_content{
+	width: 950px;
+	margin: 20px auto;
+	overflow: hidden;
+	padding: 0 37px 140px 37px;
+}
+/* Home */
+	div.page_content div.pubb_bot{
+		float: left;	
+		width: 100%;
+		height: 276px;
+		background: #505050;
+		font-size: 40px;
+		text-align: center;
+		height: auto;
+		line-height: 129px;
+	}
+		div.page_content div.slide_cont{
+			position:relative;
+			margin:0 auto;		
+			width: 100%;
+			height: 276px;
+			display: block;
+		}
+			#links{
+				float: left;
+				display: none;	
+				width: 100%;
+				overflow: hidden;
+			}
+			/*
+				#links div.m_links{
+					float: left;
+					width: 100%;
+					text-align: center;
+					font-size: 12px;
+					font-weight: bold;
+					color: #FFFFFF;
+					background-image: linear-gradient(top, rgb(66,66,66) 24%, rgb(97,96,97) 51%);
+					background-image: -o-linear-gradient(top, rgb(66,66,66) 24%, rgb(97,96,97) 51%);
+					background-image: -moz-linear-gradient(top, rgb(66,66,66) 24%, rgb(97,96,97) 51%);
+					background-image: -webkit-linear-gradient(top, rgb(66,66,66) 24%, rgb(97,96,97) 51%);
+					background-image: -ms-linear-gradient(top, rgb(66,66,66) 24%, rgb(97,96,97) 51%);					
+					background-image: -webkit-gradient(
+						linear,
+						left top,
+						left bottom,
+						color-stop(0.24, rgb(66,66,66)),
+						color-stop(0.51, rgb(97,96,97))
+					);
+				}
+			*/
+		div.page_content div.slide_cont img{
+			float: left;
+		}
+	div.page_content div.page_center{
+		width: 100%;
+		height: auto;
+		margin: 20px 0 20px 0;
+		float: left;
+	}
+		div.sx_corpo{
+			width: 628px;
+			height: auto;
+			float: left;
+			margin: 0 12px 0 0;
+		}
+			div.sx_corpo div.sx_primo_box, div.sx_primo_box div.top_primo_box, div.dx_corpo div.dx_primo_box{
+				width: 100%;
+				height: auto;
+				float: left;
+				color: #FFFFFF;
+			}
+				div.sx_primo_box div.top_primo_box{
+					background: #505050;					
+				}
+				div.sx_primo_box div.top_primo_box div.titolo{
+					width: 100%;
+					height: auto;
+					line-height: 40px;
+					font-weight: bold;
+				}
+				div.sx_primo_box div.top_primo_box div.titolo h2{					
+					margin: 0 18px 0 18px;
+				}
+				div.sx_primo_box div.top_primo_box div.itinerario, div.sx_secondo_box div.top_secondo_box div.monumenti, div.top_terzo_box div.meteo, div.top_terzo_box div.pisa_per_te{
+					width: 284px;
+					height: 182px;
+					padding: 0 0 7px 0;
+					float: left;
+					margin: 0 0 10px 20px;
+				}
+					div.top_terzo_box div.meteo a:hover, div.top_terzo_box div.pisa_per_te a:hover{
+						text-decoration: none;
+					}
+					div.top_terzo_box div.meteo div.titolo a{
+						float: right;
+						font-weight: normal;
+						font-size: 10px;
+						color: #000000;
+						margin: 0 20px 0 0;
+					}
+					div.top_terzo_box div.meteo div.titolo h2{
+						float: left;					
+					}
+					div.itinerario div.itinerario_image, div.monumenti div.monumenti_image{
+						width: 117px;
+						height: 178px;
+						float: left;
+						margin: 0 3px 0 0;
+						padding: 1px;
+						background: #666666;
+					}
+					div.itinerario div.itinerario_titolo, div.monumenti div.monumenti_titolo{
+						width: 150px;
+						float: left;
+						line-height: 19px;
+						padding: 0 0 0 7px;
+						font-weight: bold;
+						height: 38px;
+					}
+					div.monumenti div.monumenti_titolo{
+						margin: 0 0 14px 0;
+					}
+					div.itinerario div.itinerario_testo, div.monumenti div.monumenti_testo{
+						margin: 0 0 0 3px;
+						width: 152px;
+						float: left;
+						height: 80px;
+						line-height: 15px;
+						padding: 0 0 0 5px;
+					}
+					
+					div.itinerario a.leggi_tutto, div.monumenti a.leggi_tutto, div.risultato_elenco a.leggi_tutto{
+						margin: 10px 0 0 0;
+						width: 125px;
+						float: left;
+						text-align: right;
+						height: 25px;
+						line-height: 25px;
+						padding: 0 30px 0 5px;
+						background: url(../img/freccia_dx.png) right no-repeat;
+						color: #FFFFFF;
+						text-decoration: none;
+						font-style: italic;
+					}
+					div.monumenti a.leggi_tutto{
+						color: #000000;
+						background: url(../img/freccia_dx_n.png) right no-repeat;
+					}
+					div.itinerario a:hover, div.monumenti a:hover{
+						text-decoration: underline;
+					}
+				div.sx_primo_box div.bot_primo_box, div.dx_primo_box div.bot_primo_box{					
+					width: auto;
+					background: #505050 url(../img/linguetta_schede_sx.png) left no-repeat;
+					margin: 0 5px 0 0;
+					height: 23px;
+					float: right;
+					font-weight: bold;
+					line-height: 23px;
+					padding: 0 0 0 20px;
+					color: #FFFFFF;
+				}
+				div.sx_primo_box div.bot_primo_box span, div.dx_primo_box div.bot_primo_box span{
+					text-align: center;
+					padding: 0 28px 0 8px;
+					float: left;
+					height: 23px;
+					line-height: 23px;
+					background: #505050 url(../img/linguetta_schede_dx.png) right no-repeat;
+				}
+					div.sx_primo_box div.bot_primo_box a, div.dx_primo_box div.bot_primo_box a{
+						text-align: center;
+						padding: 0 28px 0 0;
+						float: left;
+						height: 23px;
+						line-height: 23px;
+						background: #505050 url(../img/freccia_dx.png) right no-repeat;
+						color: #FFFFFF;
+					}
+				
+			div.sx_corpo div.sx_secondo_box, div.sx_corpo div.sx_terzo_box, div.sx_secondo_box div.top_secondo_box, div.dx_corpo div.dx_secondo_box, div.dx_corpo div.dx_terzo_box{
+				width: 100%;
+				height: auto;
+				float: left;
+				margin: 10px 0 0 0;
+			}
+			div.sx_corpo div.sx_terzo_box{
+				padding: 0;
+				margin: 20px 0 0 0;
+			}
+				div.sx_terzo_box div.meteo, div.sx_terzo_box div.pisa_per_te{
+					background: #cad8e9;
+					margin: 0 8px 0 0;
+					height: 165px;
+					width: 310px;
+				}
+					div.sx_terzo_box div.meteo div.meteo_dett, div.sx_terzo_box div.pisa_per_te div.pisa_per_te_dett{
+						width: 100px;
+						height: 120px;
+						margin: 10px 0 0 0;
+						float: left;
+					}
+						div.meteo div.meteo_dett span.giorno{
+							width: 90px;
+							text-align: center;
+							font-weight: bold;
+							float: left;
+						}
+						div.meteo div.meteo_dett span.img{
+							width: 80px;
+							height: auto;
+							float: left;
+							margin: 0 0 0 5px;
+						}
+							div.meteo div.meteo_dett span.img img{
+								width: 80px;
+							}
+						div.meteo div.meteo_dett span.descr{
+							width: 90px;
+							text-align: center;
+							font-weight: bold;
+							float: left;
+							color: #505050
+						}
+
+						div.pisa_per_te div.pisa_per_te_dett span.img{
+							width: 41px;
+							height: auto;
+							float: left;
+							height: 41px;
+							padding: 0 0 20px 24px;
+						}
+						div.pisa_per_te div.pisa_per_te_dett h3.descr{
+							width: 90px;
+							text-align: center;
+							font-weight: bold;
+							float: left;
+							color: #FFFFFF;
+						}
+				div.sx_terzo_box div.pisa_per_te{
+					background: #b32d1d;
+					margin: 0;
+				}
+				div.sx_secondo_box div.top_secondo_box, div.dx_secondo_box div.top_secondo_box{
+					background: #e4e4e4;
+					color: #323232;
+					float: left;
+				}
+				div.sx_secondo_box div.top_secondo_box div.titolo, div.pisa_per_te div.titolo, div.meteo div.titolo, div.dx_secondo_box div.top_secondo_box div.titolo{
+					width: 100%;
+					height: auto;
+					line-height: 40px;
+					font-weight: bold;
+					float: left;
+				}
+				div.sx_secondo_box div.top_secondo_box div.titolo h2, div.pisa_per_te div.titolo h2, div.meteo div.titolo h2, div.dx_secondo_box div.top_secondo_box div.titolo h2{
+					margin: 0 18px 0 18px;
+				}
+					div.monumenti div.monumenti_titolo{
+						height: auto;
+						line-height: 16px;
+						color: #323232;
+					}
+					div.pisa_per_te div.titolo{
+						color: #FFFFFF;
+					}
+					div.meteo div.titolo{
+						color: #323232;
+					}
+					div.meteo div.testo, div.pisa_per_te div.testo{
+						color: #323232;
+						width: 300px;
+						margin: -5px 5px 0 5px;
+						float: left;
+						overflow: hidden;
+					}
+					div.pisa_per_te div.testo{
+						color: #FFFFFF;
+					}
+				
+				div.sx_secondo_box div.bot_secondo_box, div.dx_secondo_box div.bot_secondo_box{
+					width: auto;
+					background: #e4e4e4 url(../img/linguetta_schede_sx.png) left no-repeat;
+					margin: 0 5px 0 0;
+					height: 23px;
+					float: right;
+					color: #323232;
+					font-weight: bold;
+					line-height: 23px;
+					padding: 0 0 0 20px;
+				}
+				div.sx_secondo_box div.bot_secondo_box span, div.dx_secondo_box div.bot_secondo_box span{
+					text-align: center;
+					padding: 0 28px 0 8px;
+					float: left;
+					height: 23px;
+					line-height: 23px;
+					background: #e4e4e4 url(../img/linguetta_schede_dx.png) right no-repeat;
+				}
+					div.sx_secondo_box div.bot_secondo_box a, div.dx_secondo_box div.bot_secondo_box a{
+						text-align: center;
+						padding: 0 28px 0 0;
+						float: left;
+						height: 23px;
+						line-height: 23px;
+						background: #e4e4e4 url(../img/freccia_dx_n.png) right no-repeat;
+						color: #505050;
+					}
+				
+		div.dx_corpo{
+			width: 310px;
+			height: auto;
+			float: left;
+		}
+			div.dx_corpo div.dx_primo_box div.top_primo_box{
+				background: #505050;
+				float: left;
+			}
+			
+			div.dx_primo_box div.top_primo_box div.titolo{
+				background: #b32d1d;
+				margin: 0;
+				width: 100%;
+				line-height: 30px;
+				font-weight: bold;
+				color: #FFFFFF;
+				float: left;
+			}
+			div.dx_primo_box div.top_primo_box div.titolo h2{
+				margin: 0 10px 4px 20px;				
+			}
+			div.dx_primo_box div.top_primo_box div.testo{
+				padding: 0 4px 4px 4px;
+				width: 302px;
+				float: left;
+				overflow: hidden;
+			}
+				div.dx_primo_box div.top_primo_box div.testo img{
+					float: left;
+					width: 100%;
+				}
+			
+			div.dx_corpo div.dx_secondo_box{
+				margin: 20px 0 0 0;
+			}
+			
+			div.dx_secondo_box div.contenuti{
+				width: 274px;
+				height: 115px;
+				float: left;
+				margin: 0 18px;
+				padding: 0 0 8px 0;
+				line-height: 16px;
+			}
+			
+				div.dx_secondo_box div.ultimo{
+					border-top: 1px solid #9a9a9a;
+					margin: 0 18px 8px 18px;
+					padding: 8px 0 8px 0;
+				}
+			
+			div.dx_secondo_box div.contenuti div.testo{
+				width: 196px;
+				height: 115px;
+				float: left;
+				overflow: hidden;
+			}
+			
+				div.contenuti div.immagine{
+					width: 74px;
+					height: 105px;
+					float: left;
+					padding: 2px;
+					background: #CECECE;
+				}
+					div.contenuti div.immagine img{
+						float: left;
+					}
+				div.contenuti div.testo h3.titolo{
+					width: 191px;
+					float: left;
+					margin: 0 0 0 5px;
+					font-weight: bold;
+				}
+				div.contenuti div.testo span.data{
+					width: auto;
+					float: left;
+					margin: 0 0 0 5px;
+					color: #555555;
+				}
+					div.contenuti div.testo span.data span{
+						color: #b32d1d;
+					}
+				div.contenuti div.testo span.riepilogo{
+					width: auto;
+					float: left;
+					margin: 10px 0 0 5px;
+					color: #555555;
+				}
+		div.dx_terzo_box div.top_terzo_box div.titolo{
+			width: auto;
+			background: #b32d1d url(../img/linguetta_schede_su_sx.png) left no-repeat;
+			margin: 10px 5px 0 0;
+			height: 23px;
+			float: left;
+			color: #FFFFFF;
+			font-weight: bold;
+			line-height: 23px;
+			padding: 0 0 0 20px;
+		}
+				div.dx_terzo_box div.top_terzo_box div.titolo h2{
+					text-align: center;
+					padding: 0 28px 0 8px;
+					float: left;
+					height: 23px;
+					line-height: 23px;
+					background: #b32d1d url(../img/linguetta_schede_su_dx.png) right no-repeat;
+				}
+		div.dx_terzo_box div.top_terzo_box div.contenuto{
+			width: 100%;
+			background: #b32d1d;
+			height: auto;
+			float: left;
+			color: #FFFFFF;
+		}
+			div.top_terzo_box div.contenuto div.iscrizione, div.top_terzo_box div.contenuto div.info{
+				width: 280px;
+				float: left;
+				margin: 15px;
+			}
+				div.contenuto div.iscrizione #newsletter{
+					width: 230px;
+					float: left;
+					height: 15px;
+					line-height: 15px;
+					margin: 0;
+					padding: 0 5px;
+					border: 1px solid #c7c7c7;
+					color: #CCCCCC;
+				}
+				div.contenuto div.iscrizione #newsletter_reg{
+					float: left;
+					margin: 0 0 0 20px;
+				}
+			div.top_terzo_box div.contenuto div.info{
+				margin: 5px 15px 15px 15px;
+			}
+		
+	div.dx_corpo div.pubb_dx, div.dx_corpo div.app{
+		width: 100%;
+		height: 105px;
+		line-height: 105px;
+		float: left;
+		margin: 20px 0 0 0;
+		text-align: center;
+		font-size: 16px;
+		background: #505050;
+		font-weight: bold;
+		color: #FFFFFF;
+	}
+		
+		div.dx_corpo div.app_primo{
+			margin:0;
+		}
+		
+	div.dx_corpo div.primo{
+		margin: 0;
+	}
+	div.dx_corpo div.app{
+		padding: 5px;
+		height: auto;
+		width: 300px;
+	}
+		div.dx_corpo div.app img{
+			float:left;
+		}
+		
+ul.menu_cent{
+	margin: auto;
+    list-style-type: none;
+    font-size: 100%;
+}
+
+ul.menu_cent li {
+    list-style: none;
+    float:left;
+    height: 42px;
+    text-align: center;
+    padding:0;
+	background: url(../img/top_menu_sep.png) right center no-repeat;
+}
+
+ul.menu_cent li a {
+    text-decoration: none;
+    color: #363636;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    padding: 0 18px;
+    text-align: center;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin: 0 1px 0 0;
+    font-size: 16px;
+}
+ul.menu_cent li.last {
+	background: url(../img/top_dx_menu.png) right no-repeat;
+    padding: 0 37px 0 0;
+}
+ul.menu_cent li a:hover,ul.menu_cent li a.actived {
+    background: url(../img/top_menu_hover.png) repeat-x;
+}
+
+
+				
+.striscia_1f8e29{
+	background: #1f8e29;					
+}
+.striscia_ffd840{
+	background: #ffd840;					
+}
+.striscia_ea76a6{
+	background: #ea76a6;					
+}
+.striscia_641a45{
+	background: #641a45;
+}
+.font_nero{	
+	color: #000000;
+}
+.font_bianco{	
+	color: #FFFFFF;
+}
+
+.rank{
+	width: 110px;
+	float: right;
+	height: 17px;
+	background: url(../img/star_of.png) repeat-x;
+}
+.rank_on{
+	width: auto;
+	background: url(../img/star_on.png) repeat-x;
+	float: left;
+	height: 17px;
+}
+	.on_1{
+		width: 22px;
+	}
+	.on_2{
+		width: 44px;
+	}
+	.on_3{
+		width: 66px;
+	}
+	.on_4{
+		width: 88px;
+	}
+	.on_5{
+		width: 110px;
+	}
+
+
+/*Slide Home*/
+
+#slides {
+	position:absolute;
+	top:0px;
+	left:0;
+	z-index:100;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	width:950px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container div.slide {
+	width:950px;
+	height:276px;
+	display:block;
+}
+
+
+	.slides_container div.slide img{
+		width: 100%;
+		height: 100%;
+	}
+	.slides_container div.slide span.titolo{
+		width:850px;
+		height:30px;
+		display:block;
+		position: absolute;
+		z-index: 105;
+		padding: 40px 0 0 0;
+		color: #FFFFFF;
+		font-style: italic;
+		font-size: 20px;
+		font-weight: bold;
+		text-align: right;
+	}
+
+
+/*
+	Next/prev buttons
+*/
+
+#slides .next,#slides .prev {
+	position:absolute;
+	top:120px;
+	left:20px;
+	width:35px;
+	height:50px;
+	display:block;
+	z-index:101;
+}
+
+#slides .next {
+	left:895px;
+}
+
+/*
+	Pagination
+*/
+
+.pagination {
+	position:absolute;
+	z-index:501;
+	bottom: 20px;
+	left: 425px;
+	padding: 0;
+	width: 100px;
+}
+
+.pagination li {
+	margin:0 5px;
+	list-style:none;
+	float: left;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../img/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -19px;
+}
+
+/*
+	Caption
+*/
+
+.caption {
+	z-index:500;
+	position:absolute;
+	bottom:0px;
+	left:0;
+	height:60px;
+	padding:5px 20px 0 20px;
+	background: url(../img/trasp_px.png);
+	width:100%;
+	font-size:12px;
+	font-family: Arial;
+	line-height:30px;
+	color:#FFFFFF;
+	border-top:1px solid #000;
+	text-shadow:none;
+}
+/* -------- */
+
+
+/* Itinerari */
+#itinerario_left, #itinerario_right{
+	width: 25px;
+	text-align: center;
+	line-height: 80px;
+}
+#itinerario_left{
+	float: left;
+	margin: 20px 10px 0 0;
+	background: url(../img/scroll_dx.png) center no-repeat;
+}
+#itinerario_right{
+	float: left;
+	margin: 20px 0 0 0;
+	background: url(../img/scroll_sx.png) center no-repeat;
+}
+#itinerario_right:hover{
+	float: left;
+	margin: 20px 0 0 0;
+	background: url(../img/scroll_sx_over.png) center no-repeat;
+	text-decoration: none;
+}
+#itinerario_left:hover{
+	float: left;
+	margin: 20px 10px 0 0;
+	background: url(../img/scroll_dx_over.png) center no-repeat;
+	text-decoration: none;
+}
+div.breadcrumb{
+	width: 100%;
+	float: left;
+	height: 18px;
+	margin: 0;
+	color: #000000;
+	font-size: 11px;
+	text-transform: capitalize;
+}
+	div.breadcrumb a{
+		color: #000000;
+	}
+	div.breadcrumb a:hover{
+		text-decoration: underline;
+	}
+div.nav_itinerari{
+	width: 100%;
+	overflow: hidden;
+	float: left;
+	margin: 5px 0 0 0;
+	min-width: 320px;
+}
+	div.nav_itinerari div.titolo, div.nav_itinerari div.sotto_titolo{
+		/*height: 28px;*/
+		line-height: 28px;
+		font-weight: bold;
+		font-size: 18px;
+		width: 100%;
+		float: left;
+	}
+	div.info_itinerario div.testo div.titolo_info{
+		line-height: 20px;
+	   /* font-weight:bold;*/
+		/*width: 100%;*/
+		width: 170px;
+		float: left;
+		color: #00A9DE;
+		font-size:14px;
+		font-weight:bold;
+	     
+	}
+	
+	div.info_itinerario div.testo div.titolo_info a
+	{
+		color: #00A9DE;
+	}
+	div.info_itinerario div.testo p
+	{  margin-top:5px;
+		overflow:visible;
+		width:170px;
+		color:#000;
+		line-height:18px;
+		}
+	
+	
+	div.nav_itinerari div.sotto_titolo{
+		height: 18px;
+		line-height: 18px;
+		font-weight: normal;
+		font-style: italic;
+		margin: 0 0 10px 0;	
+	}
+	div.nav_itinerari div.mappa{
+		height: 459px;
+		width: 100%;
+		float:left;
+		border-bottom: 3px solid #646464;
+	}
+	div#mappa label{
+		width: auto;
+		display:inline;
+	}
+	div#mappa img{
+		max-width: none;
+	}
+		div.descrizione_mappa, div.descrizione_mappa_cultura, div.descrizione_mappa_eventi_guida{
+			height: 429px;
+			background: url(../img/trasp_mappa_descr.png);
+			width: 250px;
+			float:right;
+			padding: 30px 30px 0 30px;
+			font-size:12px;
+			color: #FFFFFF;
+		}
+		div.descrizione_generica{
+			height: auto;
+			width: 270px;
+			float:right;
+			padding: 20px;
+			font-size:12px;
+			color: #FFFFFF;
+			background: #505050;
+		}		
+			div.descrizione_generica > ul, div.descrizione_generica > ul > li > ul{
+				margin: 0;
+				list-style: none;
+			}
+			div.descrizione_generica > ul > li{
+				border-top: 1px solid #FFFFFF;
+			}
+			div.descrizione_generica > ul > li.primo{
+				border:0;
+			}
+			div.descrizione_generica > ul > li > a, div.descrizione_generica > ul > li.select > a{
+				height: 20px;
+				line-height: 20px;
+				padding: 5px;
+				width: 260px;
+				display: block;
+				text-transform: uppercase;
+			}
+			div.descrizione_generica > ul > li.select > a, div.descrizione_generica > ul > li > a:hover{
+				background: #B32D1D;
+				font-weight: bold;
+				text-decoration: none;
+			}
+			div.descrizione_generica > ul > li > ul{
+				display: none;
+				margin: 5px 20px;
+			}
+			div.descrizione_generica > ul > li.select > ul{
+				display: block;
+			}
+			div.descrizione_generica > ul > li > ul > li > a{
+				height: 20px;
+				line-height: 20px;
+				padding: 5px 5px 5px 20px;
+				width: 195px;
+				display: block;
+				background: url(../img/sublist_sep.png) top left no-repeat;
+			}
+		div.box_flikr{
+			width: 598px;
+			float: left;
+			background: #C8C8C8 url(../img/flickr_icon.png) top right no-repeat;
+			padding: 15px;
+		}
+			div.box_flikr a.img{
+				width: 117px;
+				height: 117px;
+				margin: 1px;
+				float: left;
+			}
+			div.box_flikr h2{
+				width: 100%;
+				margin: 0 0 15px 0;
+				color: #323232;
+			}
+				div.box_flikr a.img img{
+					width: 115px;
+					height: 115px;
+					float: left;
+					border: 1px solid #505050;
+				}
+		div.descrizione_mappa_eventi_guida{
+			height: auto;
+			padding: 30px;
+			background: #B32D1D;
+		}
+			div.descrizione_mappa div.titolo{
+				width: 100%;
+				font-weight: bold;
+				font-size: 16px;
+			}
+			div.descrizione_mappa div.sotto_titolo{
+				width: 100%;
+				font-style: italic;
+				font-size: 12px;
+			}
+			div.descrizione_mappa div.tipologia{
+				width: 100%;
+				overflow: hidden;
+				margin: 12px 0 12px 0;
+				float: left;
+			}
+			div.tipologia_invia{
+				width: 100%;
+				overflow: hidden;
+				position: absolute;
+				bottom: 30px;
+				right: 30px;
+			}
+			div.guida_invia{
+				width: 100%;
+				float: right;
+				bottom: 30px;
+				left: 180px;
+				margin: 20px 0 0 0;
+			}
+				.submit_invia{
+					background: #969696;
+					border: 1px solid #FFFFFF;
+					font-weight: bold;
+					color: #FFFFFF;
+					width: 136px;
+					height: 21px;
+					float: right;
+				}
+				div.tipologia div.condividi{
+					width: 220px;
+					overflow: hidden;
+					margin: 0 0 0 30px;
+					float: left;
+				}
+					div.tipologia div.condividi img{
+						width: 22px;
+						height: 22px;
+						float: left;
+						margin: 0 10px 0 0;
+					}
+				div.tipologia div.etichetta{
+					float: left;
+					width: 100%;
+					overflow: hidden;
+					padding: 7px 0 0 0;
+				}
+				div.tipologia div.etichetta img{
+					float: left;
+					width: 30px;
+					height: 30px;
+					margin: -7px 0 0 0;
+				}
+				div.tipologia div.rank, div.tipologia strong{
+					float: left;
+					margin: 0 0 0 30px;
+				}
+				div.tipologia div.rank_on{
+					float: left;
+				}
+		div.nav_itinerari div.mappa a.descrizione_mappa_hide, div.nav_itinerari div.mappa a.descrizione_mappa_show{
+			height: 459px;
+			background: url(../img/hide_mappa_descr.png) center no-repeat;
+			width: 20px;
+			float:right;
+		}
+		div.nav_itinerari div.mappa a.descrizione_mappa_show{
+			display: none;
+			background: url(../img/show_mappa_descr.png) center no-repeat;
+		}
+
+div.lista_itinerari_nf{
+	width: 947px;
+	/*height: 90px;*/
+	float: left;
+	font-size: 12px;
+	overflow: hidden;
+	min-width: 320px;
+	margin: -3px 0 10px 1px;
+}
+
+	div.lista_itinerari_nf a.itinerario{
+		width: 114px;
+		/*height: 82px;*/
+		float: left;
+		margin: 0 5px 0 0;
+	}
+		div.lista_itinerari_nf a.itinerario span.bordo_grigio{
+			width: 112px;
+			/*height: 70px;*/
+			margin: 18px 0 0 0;
+			float: left;
+			color: #000000;
+			text-align: center;
+			border: 2px #FFFFFF;
+			padding: 2px 0 0 2px;
+		}
+		a.itinerario span.bordo_grigio span.bordo_colorato{
+			width: 110px;
+			height: 53px;
+			line-height: 16px;
+			float: left;
+			text-align: center;
+		}
+	div.lista_itinerari_nf a.ultimo{
+		margin: 0 0 0 0;
+	}
+	div.lista_itinerari_nf a.itinerario:hover, div.lista_itinerari a.select{
+		background: url(../img/freccia_giu.png) center top no-repeat;
+	}
+	div.lista_itinerari_nf a.itinerario:hover span.bordo_grigio, div.lista_itinerari a.select span.bordo_grigio{
+		background: #4f4f4f;
+		border: 2px #4f4f4f;
+		color: #FFFFFF;
+	}
+div.lista_itinerari_contenitore{
+	width: 878px;
+	height: 88px;
+	float: left;
+	margin: -3px 10px 50px 2px;
+	font-size: 12px;
+	overflow: hidden;
+	min-width: 320px;
+}
+div.lista_itinerari{
+	width: 890px;
+	height: 88px;
+	float: left;
+	font-size: 12px;
+	overflow: hidden;
+	min-width: 320px;
+}
+	div.lista_itinerari a.itinerario{
+		width: 114px;
+		height: 82px;
+		float: left;
+		margin: 0 13px 0 0;
+	}
+		div.lista_itinerari a.itinerario span.bordo_grigio{
+			width: 112px;
+			height: 70px;
+			margin: 18px 0 0 0;
+			float: left;
+			color: #000000;
+			text-align: center;
+			border: 2px #FFFFFF;
+			padding: 2px 0 0 2px;
+		}
+		a.itinerario span.bordo_grigio span.bordo_colorato{
+			width: 110px;
+			height: 55px;
+			line-height: 17px;
+			float: left;
+			text-align: center;
+			padding-top: 5px;
+		}
+	div.lista_itinerari a.ultimo{
+		margin: 0 0 0 0;
+	}
+	div.lista_itinerari a.itinerario:hover, div.lista_itinerari a.select, div.lista_itinerari_nf a.select{
+		background: url(../img/freccia_giu.png) center top no-repeat;
+	}
+	div.lista_itinerari a.itinerario:hover span.bordo_grigio, div.lista_itinerari a.select span.bordo_grigio, div.lista_itinerari_nf a.select span.bordo_grigio{
+		background: #4f4f4f;
+		border: 2px #4f4f4f;
+		color: #FFFFFF;
+	}
+h2.scelti_per_te{
+	margin: 0 0 15px 0;
+}
+div.scelti_pubb{
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	min-width: 320px;
+}
+	div.scelti{
+		width: 640px;
+		float:left;
+		margin: 0;
+	}
+		div.scelti div.dettaglio{
+			width: 628px;
+			float:left;
+			overflow:hidden;
+			line-height: 19px;
+		}
+			div.scelti div.dettaglio a{
+				color: #505050;
+			}
+			div.scelti div.dettaglio div.vota{
+				width: 150px;
+				float:right;
+				overflow:hidden;
+				line-height: 19px;
+				margin: 20px 0 20px 0;
+			}
+				div.scelti div.dettaglio div.vota div.rank_on{
+					float:left;
+				}
+		div.scelti .itinerario{
+			float: left;
+			margin: 0 10px 5px 0;
+		}
+		div.scelti div.contenuto{
+			width: 100%;
+			float: left;
+			overflow: hidden;
+		}
+			div.scelti div.contenuto div.itinerario, div.info_itinerario{
+				width: 310px;
+				float: left;
+				margin: 0 10px 20px 0;
+			}
+			div.itinerario_ricerca{
+				width: 630px;
+				float: left;
+				margin: 10px 10px 10px 0;
+				padding: 5px 0 0 0;
+			}
+			
+			div.info_itinerario{
+				border:none;
+				width: 178px;
+				 
+				border-top: 0;
+				color: #000;
+				background:#fff;
+				font-size: 12px;
+				height: 120px;
+				margin:0;
+			}
+				div.contenuto div.itinerario div.pubb{
+					width: 299px;
+					height: 66px;
+					line-height: 66px;
+					float: left;
+					padding: 5px;
+					background: #fff;
+					text-align: center;
+					color: #000;
+					font-size: 14px;
+					font-weight: bold;
+				}
+				div.contenuto div.itinerario img, div.contenuto div.itinerario_ricerca img{
+					width: 118px;
+					/* height: 73px;*/
+					float: left;
+				}
+				div.info_itinerario img{
+					width: 98px;
+					height: 56px;
+					float: left;
+				}
+				div.contenuto div.itinerario div.testo, div.info_itinerario div.testo, div.itinerario_ricerca div.testo{
+					width: 178px;
+					line-height: 17px;
+					height: 248px;
+					float: left;
+					margin: 0 0 0 5px;
+					padding: 0 0 0 5px;
+					 
+				}
+				
+				div.itinerario_ricerca div.testo{
+					width: 502px;
+					margin: 0 0 7px 0;
+				}
+				div.info_itinerario div.testo{
+					width: 140px;
+					line-height: 15px;
+					overflow: normal;
+					height:100px;
+				}
+					div.itinerario div.titolo, div.itinerario_ricerca div.titolo{
+						width: 179px;
+						line-height: 10px;
+						float: left;
+						overflow: hidden;
+					}
+					div.itinerario_ricerca div.titolo{
+						width: 502px;
+					}
+				div.info_itinerario a.leggi, div.itinerario_ricerca a.leggi{
+					width: 149px;
+					color: #000000;
+					margin: 0 5px;
+					float:right;
+					text-align: right;
+				}
+				div.itinerario a.leggi{
+					background: url("../img/freccia_dx_n.png") no-repeat scroll right center transparent;
+   					color: #000000;
+					float: right;
+					font-style: italic;
+					margin: 0 5px;
+					margin-top: 5px;
+   					width: 80px;
+   					}
+				div.itinerario_ricerca a{
+					color: #000000;
+				}
+				div.info_itinerario a.leggi{
+					width: 120px;
+					text-align: right;
+					color: #FFFFFF;
+				}
+	div.pubb{
+		width: 310px;
+		height: auto;
+		float: left;		
+	}
+		div.pubb div.pubb{
+			padding: 5px;
+			height: auto;
+			overflow: hidden;
+			width: 300px;
+			background: #505050;
+			float:left;
+			margin: 20px 0 0 0;
+		}
+			div.pubb div.pubb img{
+				float:left;
+			}
+			div.pubb div.pubb div{
+				float:left;
+				width: 100%;
+				height: 94px;
+				line-height: 94px;
+				text-align: center;
+				background: #000000;
+				color: #FFFFFF;
+				font-weight: bold;
+			}
+		div.pubb div.primo{
+			margin: 0;
+		}
+
+/*-------------*/
+
+/* Cultura */
+div.pubb div.descrizione_mappa_cultura{
+	height: 399px;
+	background: #666666;
+	width: 250px;
+	float:right;
+	padding: 30px;
+	font-size:12px;
+	color: #FFFFFF;
+}
+	div.descrizione_mappa_cultura div.titolo, div.descrizione_mappa_eventi_guida div.titolo{
+		width: 100%;
+		font-weight: bold;
+		font-size: 16px;
+		float: left;
+		margin: 0 0 5px 0;
+	}
+	div.descrizione_mappa_cultura div.tipologia, div.descrizione_mappa_eventi_guida div.tipologia{
+		width: 100%;
+		overflow: hidden;
+		margin: 0 0 5px 0;
+		float: left;
+	}
+	div.descrizione_mappa_eventi_guida div.guida_pratica{
+		border-top: 1px solid #8D8D8D;
+		width: 240px;
+		margin: 0 0 0 10px;
+		padding:0 0 5px 0;
+	}
+	div.descrizione_mappa_eventi_guida div.top{
+		border:0;
+	}
+		div.descrizione_mappa_eventi_guida div.tipologia > a{
+			margin: 0 0 -5px 0;
+			line-height: 25px;
+			padding: 0 0 0 40px;
+			width: 200px;
+			float: left;
+			background: url(../img/freccia_dx_b.png) 11px 5px no-repeat;
+			font-weight: bold;
+		}
+		div.descrizione_mappa_eventi_guida div.tipologia > a.actived{
+			background: #323232 url(../img/freccia_giu_b.png) 11px 5px no-repeat;
+			margin: 0 0 5px 0;
+		}
+		div.descrizione_mappa_eventi_guida div.tipologia > div > .checkBox_JQ, div.descrizione_mappa_eventi_guida div.tipologia > div > .checkBoxClear_JQ{
+			margin: 0 0 0 15px;
+		}
+		div.descrizione_mappa_eventi_guida div.tutti .checkBox_JQ, div.descrizione_mappa_eventi_guida div.tutti .checkBoxClear_JQ{
+			margin: 0 0 0 20px;
+		}
+		div.descrizione_mappa_eventi_guida div.tutti{
+			margin: 0 0 20px 0;
+		}
+	div.descrizione_mappa_cultura div.tutti{
+		margin: 0 0 30px 0;
+	}
+div.nav_itinerari div.desc_m_h{
+	position: absolute;
+	margin: 56px 0 0 930px;
+	width: 20px;
+}
+div.nav_itinerari div.desc_m_h a.descrizione_mappa_hide, div.nav_itinerari div.desc_m_h a.descrizione_mappa_show{
+	height: 459px;
+	background: url(../img/hide_mappa_descr.png) center no-repeat;
+	width: 20px;
+	float:right;
+}
+div.nav_itinerari div.desc_m_h a.descrizione_mappa_show{
+	background: url(../img/show_mappa_descr.png) center no-repeat;
+}
+div.nav_itinerari div.desc_m_h div.cont_hide{
+	display: none;
+	width: 20px;
+	float:left;
+}
+div.nav_itinerari div.desc_m_h div.cont_hide{
+	width: 332px;
+	float:left;
+}
+.checkBox_JQ
+{
+	background: url(../img/cultura_chk_on.png) 0 0 no-repeat;
+}
+
+.checkBoxClear_JQ
+{
+	background: url(../img/cultura_chk_of.png) 0 0 no-repeat;
+}
+
+.checkBox_JQ, .checkBoxClear_JQ
+{
+    float: left;
+    width: 194px;
+    /*height: 21px;*/
+    overflow: hidden;
+    line-height: 21px;
+    padding: 0 0 0 30px;
+    margin: 0 0 0 20px;
+}
+
+.checkBox, .checkBoxClear
+{
+    float: left;
+    width: 200px;
+    height: 21px;
+    line-height: 21px;
+    padding: 0;
+    margin: 0 0 0 20px;
+}
+div.impag{
+	width: 100%;
+	overflow: hidden;
+	line-height: 20px;
+	float: left;
+	margin: 20px 0 20px 0;
+}
+div.impag_guida{
+	margin: 0 0 20px 0;	
+}
+div.sotto{
+	margin: 5px 0 5px 0;
+}
+	div.impag a.pagine{
+		height: 20px;
+		float: left;
+		margin: 0 10px 0 0;
+		text-align: center;
+		padding: 0 6px 0 6px;
+		background: #686868;
+		color: #FFFFFF;
+		font-size: 12px;
+	}
+	div.impag a.pagine:hover, div.impag span.pagine{
+		height: 20px;
+		float: left;
+		margin: 0 10px 0 0;
+		text-align: center;
+		padding: 0 6px 0 6px;
+		background: #bf301f;
+		color: #FFFFFF;
+		text-decoration: none;
+		font-size: 12px;
+	}
+	div.impag a.frecce, div.impag span.frecce, div.impag a.frecce:hover{
+		font-size:8px;
+	}
+	div.risultati{
+		width: 638px;
+		height: 20px;
+		line-height: 20px;
+		float: left;
+		margin: 10px 0 0 0;
+		font-style: italic;
+	}
+	div.ordinamento, div.ordinamento_cultura{
+		width: 630px;
+		line-height: 25px;
+		float: left;
+		overflow: hidden;
+		margin: 0;
+		background: #505050;
+		color: #FFFFFF;
+		font-size: 14px;
+	}
+	div.ordinamento_cultura{
+		margin: 0 0 15px 0;
+	}
+		div.ordinamento_cultura span,
+		div.ordinamento span{
+			float: left;
+			margin: 5px 0 5px 10px;
+		}
+		div.ordinamento_cultura a,
+		div.ordinamento a{
+			float: left;
+			margin: 5px;
+			padding: 0 10px 0 0;
+			border-right: 1px solid #FFFFFF;
+		}
+		div.ordinamento_cultura a.ultimo,
+		div.ordinamento a.ultimo{
+			border-right: 0;
+		}
+		div.ordinamento_cultura a:hover, div.ordinamento_cultura a.actived,
+		div.ordinamento a:hover, div.ordinamento a.actived{
+			font-weight: bold;
+			text-decoration: none;
+		}
+		div.ordinamento_cultura div.num_per_pg,
+		div.ordinamento div.num_per_pg{
+			float:right;
+			margin: 5px 10px 5px 0;
+		}
+			div.ordinamento_cultura div.num_per_pg select,
+			div.ordinamento div.num_per_pg select{
+				float:left;
+				width: 50px;
+			}
+			div.ordinamento_cultura div.num_per_pg label,
+			div.ordinamento div.num_per_pg label{
+				float:left;
+				margin: 0 5px 0 0;
+			}
+	div.dove_dormire_mangiare{
+		width: 100%;
+		height: auto;
+		float: left;
+		margin: 20px 0 0 0;
+		background: #e4e4e4;
+		color: #323232;
+	}
+		div.dove_dormire_mangiare div.titolo{
+			width: auto;
+			height: auto;
+			line-height: 30px;
+			font-weight: bold;
+			margin: 5px 20px 5px 20px;
+		}
+		div.dove_dormire_mangiare div.dormire{
+			background: url(../img/dormire_n.png) right no-repeat;
+		}
+		div.dove_dormire_mangiare div.mangiare{
+			background: url(../img/mangiare_n.png) right no-repeat;
+		}
+	div.pubb div.top_secondo_box{
+		width: 100%;
+		height: auto;
+		float: left;
+		margin: 40px 0 0 0;
+		background: #e4e4e4;
+		color: #323232;
+	}
+		div.pubb div.top_secondo_box div.titolo{
+			width: auto;
+			height: auto;
+			line-height: 30px;
+			font-weight: bold;
+			margin: 0 8px 0 8px;
+		}
+			div.pubb div.contenuti{
+				width: 292px;
+				height: 109px;
+				float: left;
+				margin: 0 5px;
+				padding: 5px;
+				line-height: 16px;
+			}
+				div.pubb div.contenuti div.testo span.titolo{
+					width: 209px;
+					float: left;
+					margin: 0 0 0 5px;
+					font-weight: bold;
+				}
+			div.dx_corpo div.contenuti_dorm_mang{
+				width: 270px;
+				/*height: 50px;*/
+				float: left;
+				margin: 0px 20px 5px 20px;
+				padding: 10px 0 5px 0;
+				line-height: 16px;
+				border-top: 1px solid #9A9A9A;
+				overflow: hidden;
+			}
+				div.contenuti_dorm_mang a.testo h3.titolo, div.contenuti_dorm_mang a.testo{
+					width: 270px;
+					float: left;
+					margin: 0;
+					color: #000000;
+				}
+				div.contenuti div.testo span.data{
+					width: 191px;
+					float: left;
+					margin: 5px 0 0 5px;
+					color: #555555;
+				}
+					div.contenuti div.testo span.data span{
+						color: #b32d1d;
+					}
+				div.contenuti div.testo span.riepilogo{
+					width: 191px;
+					float: left;
+					margin: 0 0 0 5px;
+					color: #555555;
+				}
+				div.dx_corpo div.primo_no_b{
+					border-top: 0;
+					padding-top: 5px;
+				}
+	div.mappa_piccola{
+		width: 100%;
+		height: 121px;
+		float: left;
+		background: #CCCCCC;
+	}
+/*-------------*/
+
+/* Guida pratica */
+div.contenuto div.risultato{
+	width: 618px;
+	float: left;
+	/*height: 54px;*/
+	line-height: 18px;
+	border-bottom: 1px solid #9a9a9a;
+	color: #323232;
+	padding: 10px 0 10px 0;
+	margin: 0 0 0 0;
+}
+div.contenuto div.ultimo{
+	border: 0;
+}
+	div.contenuto div.risultato div.titolo{
+		width: 100%;
+		float: left;
+		margin: 0;
+	}
+	div.risultato a{
+		color: #323232;
+	}
+div.elenco_dx{
+	width: 308px;
+	height: auto;
+	float: left;
+	margin: 20px 0 20px 0;
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	color: #323232;	
+	padding: 10px 0 0 0;
+}
+	div.elenco_dx a.risultato_elenco{
+		width: 270px;
+		border-bottom: 1px solid #9a9a9a;
+		margin: 0 20px 10px 20px;
+		padding: 0;
+		height: 58px;
+		line-height:18px;
+		float: left;
+		color: #000000;
+	}
+		div.elenco_dx a.risultato_elenco img{
+			width: 47px;
+			height: 47px;
+			float: left;
+			border: 1px solid #505050;
+			margin: 0 10px 0 0;
+		}
+	div.elenco_dx a.ultimo{
+		border: 0;
+		margin: 0 20px 0 20px;
+	}
+div.sfondo_nero{
+	background: url(../img/segnala-struttura.png);
+	width: 310px;
+	height: 139px;
+	color: #FFFFFF;
+	float: left;
+	margin: 0 0 20px 0;
+}
+div.sfondo_grigio{
+	background: #e4e4e4;
+	color: #000000;
+}
+div.sfondo_grigio a{
+	color: #000000;
+}
+div.pubb span.etichetta{
+	font-style: italic;
+	padding: 10px;
+	font-size: 13px;
+	float: left;
+}
+div.pubb strong{
+	padding: 20px 20px 20px 10px;
+	float: left;
+	font-size: 28px;
+	line-height: 30px;
+}
+	div.pubb strong span.font_16{
+		font-size: 16px;
+		line-height: 16px;
+	}
+/*---------------*/
+
+/* Eventi */
+
+div.contenuto div.risultato_eventi{
+	width: 618px;
+	float: left;
+	height: auto;
+	line-height: 18px;
+	border-bottom: 1px solid #9a9a9a;
+	color: #323232;
+	padding: 5px 0 5px 0;
+	margin: 0 0 20px 0;
+}
+
+	div.contenuto div.risultato_eventi div.titolo{
+		width: 487px;
+		float: left;
+		margin: 0;
+		height: 18px;
+		line-height: 18px;
+	}
+	div.contenuto div.risultato_eventi span.provincia{
+		color: #b32d1d;
+	}
+	div.pubb div.pubb strong span.font_14{
+		font-size: 14px;
+		line-height: 14px;
+	}
+div.contenuto div.risultato_eventi img{
+	float: left;
+	margin: 5px 10px 10px 0;
+	width: 121px;
+}
+
+div.top_cultura_dx{
+	width: 312px;
+	height: auto;
+	float: left;
+	margin: 20px 0 20px 0;
+	background: #e4e4e4;
+	color: #323232;	
+	padding: 10px 0 0 0;
+}
+
+div.top_cultura_dx div.titolo{
+	width: 285px;
+	height: auto;
+	float: left;
+	background: #e4e4e4;
+	color: #323232;	
+	padding:5px 5px 10px 20px;
+	font-weight: bold;
+}
+	div.top_cultura_dx div.risultato_elenco{
+		width: 272px;
+		border-bottom: 1px solid #9a9a9a;
+		margin: 0 20px 10px 20px;
+		padding: 0;
+		min-height: 52px;
+		line-height:18px;
+		float:left;
+	}
+	div.top_cultura_dx div.ultimo{
+		border: 0;
+	}
+		div.top_cultura_dx div.risultato_elenco img{
+			width: 74px;
+			height: 46px;
+			float: left;
+		}
+	div.top_cultura_dx div.risultato_elenco div.titolo{
+		font-weight: bold;
+		width: 176px;
+		margin: 0 0 0 10px;
+		padding: 0 0 0 10px;
+		float: left;
+	}
+	div.top_cultura_dx div.risultato_elenco a{
+		color: #000000;
+		float: left;
+		min-width: 76px;
+		/*font-style: italic;*/
+		/*background: url(../img/freccia_dx_n.png) center right no-repeat;*/
+	}
+	div.top_cultura_dx div.risultato_elenco a.leggi_tutto{
+		background: url(../img/freccia_dx_n.png) center right no-repeat;
+		float: right;
+	}
+
+/*---------------*/
+
+.sitemap{
+	font-size: 13px;
+	font-weight: bold;
+	list-style: disc;
+	margin: 0;
+	padding: 0 0 0 40px;
+}
+    .sitemap ul{
+    	font-size: 12px;
+    	font-weight: normal;
+    	list-style: disc;
+    	margin: 0;
+    	padding: 0 0 0 40px;
+    }
+    .sitemap > li{
+        margin: 0 0 12px 0;
+    }
+        .sitemap > li > ul{
+            margin: 5px 0 0 0;
+        }
+        .sitemap li a{
+        	color: #333;
+        	font-weight: normal;
+        	text-transform: uppercase;
+        	font-size: 12px;
+        }
+
+/* Footer */
+div.linguetta_bot{
+	width: 950px;
+	margin: 0 auto;
+	height: 47px;
+	background: #FFFFFF;
+	display: none;
+}
+	div.linguetta_bot span.linguetta{
+		padding: 0;
+		height: 47px;
+		float: right;
+		width: 310px;
+	}
+		div.linguetta_bot span.linguetta span.content_l, div.linguetta_bot span.linguetta span.content_r{
+			padding: 0 0 0 37px;
+			width: 246px;
+			background: #C8C8C8 url(../img/linguetta_scheda_giu_sx.png) left no-repeat;
+			height: 47px;
+			line-height: 47px;
+			float: right;
+			color: #000000;
+			font-weight: bold;
+			text-align: left;
+		}
+		div.linguetta_bot span.linguetta span.content_r{
+			padding: 0;
+			background: #C8C8C8 url(../img/linguetta_scheda_giu_dx.png) right no-repeat;
+			width: 27px;
+		}
+		div.linguetta_bot span.linguetta span.seguici{			
+			float: left;
+			margin: 0 10px 0 0;
+		}
+		div.linguetta_bot span.linguetta a, div.linguetta_bot span.linguetta img{
+			float: left;
+			margin: 0;
+		}
+		div.linguetta_bot span.linguetta a{
+			float: left;
+			margin: 8px 3px 0 3px;
+		}
+
+.no_result{
+	padding: 40px;
+	margin: 0 auto;
+	width: 484px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+#footer{
+	width: 100%;
+	height: 92px;
+	background: #E4E4E4;
+	position: absolute;
+	bottom: 0;
+}
+	#footer div.footer_content{
+		width: 950px;
+	 	height: 92px;
+	 	margin: 0 auto;
+	}
+		#footer div.footer_content img{
+			float: left;
+			margin: 0 30px 0 0;
+		}
+ul.menu_bot{
+	width: auto;	
+    list-style-type: none;
+    height: 16px;
+    line-height: 16px;
+    margin: 39px 0 0 30px;
+    float: right;
+}
+	ul.menu_bot li{
+		float: left;
+		padding: 0 5px 0 5px;
+		border-left: 1px solid #000000;
+	}
+	ul.menu_bot li.first{
+		border: 0;
+	}
+		ul.menu_bot li a{
+			color: #323232;
+			text-decoration: none;
+		}
+		ul.menu_bot li a:hover{
+			text-decoration: underline;
+		}
+/* ------------------------------------ */
+.printShow{
+	display: none;
+}
+.imgPrintWidth{
+	width: 250px;
+}

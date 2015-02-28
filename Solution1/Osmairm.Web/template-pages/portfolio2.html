@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from demo.brankic.net/vertigohtml/light/portfolio2.html by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 30 Jan 2013 10:42:29 GMT -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+<meta name="viewport" content="width=device-width" />
+<title>Vertigo - Html Template by Brankic1979</title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/blog.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/socialize-bookmarks.css" media="screen" />
+
+<!--[if lt IE 8]>
+	<link href="css/ie8.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+<script type="text/javascript" src="javascript/jquery.1.4.4.js"></script>
+<script type="text/javascript" src="javascript/custom.js"></script>
+<script type="text/javascript" src="javascript/twitter.js"></script>
+
+<!-- Photostream Javascript --> 
+<script type="text/javascript" src="javascript/bra.photostream.js"></script>
+
+<!-- PrettyPhoto --> 
+<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" />
+<script type="text/javascript" src="javascript/prettyPhoto.js"></script>
+
+<!-- Masonry Javascript File --> 
+<script type="text/javascript" src="javascript/jquery.isotope.min.js"></script>	
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<!-- START HEADER -->
+
+<div id="header-wrapper">
+
+	<div class="header">	
+		
+		<div id="logo">	
+			<a href="index.html"><img src="images/logo.png" alt="" /></a>	
+		</div><!--END LOGO-->
+		
+		<div id="primary-menu">
+				
+			<ul class="menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="portfolio.html" class="current">Work</a></li>
+				<li><a href="blog.html">Blog</a>
+					<ul>
+						<li><a href="blog.html">Blog fullwidth</a></li>
+						<li><a href="blog-sidebar.html">Blog with sidebar</a></li>
+						<li><a href="blog-single.html">Blog single page 1</a></li>	
+						<li><a href="blog-single2.html">Blog single page 2</a></li>	
+						<li><a href="blog-single3.html">Blog single page 3</a></li>	
+					</ul>	
+				</li>
+				<li><a href="elements.html">Elements</a></li>
+				<li><a href="#">Pages</a>		
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="portfolio2.html">Portfolio - Masonry</a></li>
+						<li><a href="portfolio-single.html">Portfolio single page</a></li>
+						<li><a href="blog.html">Blog</a>
+							<ul>
+								<li><a href="blog.html">Blog fullwidth</a></li>
+								<li><a href="blog-sidebar.html">Blog with sidebar</a></li>
+								<li><a href="blog-single.html">Blog single page 1</a></li>	
+								<li><a href="blog-single2.html">Blog single page 2</a></li>	
+								<li><a href="blog-single3.html">Blog single page 3</a></li>	
+							</ul>	
+						</li>
+						<li><a href="showreel.html">Showreel</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="archive.html">Archive</a></li>
+						<li><a href="about-us.html">About us</a></li>
+						<li><a href="elements.html">Elements</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="error-404-page.html">404 Error page</a></li>
+					</ul>		
+				</li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul><!--END UL MENU-->
+				
+		</div><!--END PRIMARY MENU-->	
+						
+		<ul class="social-bookmarks">		
+			<li class="twitter"><a href="#">twitter</a></li>
+			<li class="facebook"><a href="#">facebook</a></li>
+			<li class="dribbble"><a href="#">dribbble</a></li>
+			<li class="rss"><a href="#">rss</a></li>
+			<li class="flickr"><a href="#">flickr</a></li>			
+		</ul><!--END SOCIAL-BOOKMARKS-->
+		         
+        <div id="back-top">
+         	<a href="#">Back to Top</a> 
+        </div><!--END BACK-TOP-->		
+		
+	</div><!--END HEADER-->	
+
+</div><!--END HEADER-WRAPPER-->
+
+<!-- END HEADER -->
+
+
+
+<!-- START CONTENT WRAPPER -->
+
+<div id="content-wrapper">
+
+<div class="content">
+
+	<div class="section-title">		
+		<h1>Portfolio</h1>		
+
+		<div class="filterable">	
+			<ul>
+				<li class="current"><a href="#" data-filter="*">All</a></li>
+				<li><a href="#" data-filter=".web">Web design</a></li>
+				<li><a href="#" data-filter=".logo">Logo</a></li>
+				<li><a href="#" data-filter=".branding">Branding</a></li>
+				<li><a href="#" data-filter=".video">Video</a></li>
+				<li><a href="#" data-filter=".video">Photography</a></li>
+			</ul><!--END PORTFOLIO-NAV-->
+		</div><!--END FILTERABLE-->
+	
+	</div><!--END SECTION TITLE-->
+		
+	<div class="portfolio-grid">	
+	
+		<ul id="thumbs">
+        
+        	<li class="web">
+				<div class="item">
+					<img src="images/portfolio-item-1.jpg" alt="" />
+					<div class="item-info">
+						<h3 class="title"><a href="#">Enter title here</a></h3>
+					</div><!--END ITEM-INFO--> 	
+					<div class="item-info-overlay">
+					<div>
+						<h4>Web design</h4>	
+						<p>Etiam eget mi enim, non ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem.</p>
+						<a href="portfolio-single.html" class="view">details</a>
+						<a href="images/portfolio-item-1.jpg" class="preview" data-rel="prettyPhoto[web]">preview</a>					
+					</div>					
+					</div><!--END ITEM-INFO-OVERLAY-->
+				</div><!--END ITEM-->			    	
+			</li>							
+								
+			<li class="web">
+				<div class="item">
+					<img src="images/portfolio-item-2.jpg" alt="" height="300" />
+					<div class="item-info">
+						<h3 class="title"><a href="#">Enter title here</a></h3>
+					</div><!--END ITEM-INFO--> 	
+					<div class="item-info-overlay">
+					<div>
+						<h4>Web design</h4>	
+						<p>Etiam eget mi enim, non ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem.</p>
+						<a href="portfolio-single.html" class="view">details</a>
+						<a href="images/portfolio-item-2.jpg" class="preview" data-rel="prettyPhoto[web]">preview</a>									
+					</div>					
+					</div><!--END ITEM-INFO-OVERLAY-->
+				</div><!--END ITEM-->		
+			</li>
+												
+			<li class="web">
+				<div class="item">
+					<img src="images/portfolio-item-3.jpg" alt="" />
+					<div class="item-info">
+						<h3 class="title"><a href="#">Enter title here</a></h3>
+					</div><!--END ITEM-INFO--> 	
+					<div class="item-info-overlay">
+					<div>
+						<h4>Web design</h4>	
+						<p>Etiam eget mi enim, non ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem.</p>
+						<a href="portfolio-single.html" class="view">details</a>
+						<a href="images/portfolio-item-3.jpg" class="preview" data-rel="prettyPhoto[web]">preview</a>							
+					</div>					
+					</div><!--END ITEM-INFO-OVERLAY-->
+				</div><!--END ITEM-->		
+			</li>			
+				
+			<li class="branding">
+				<div class="item">
+					<img src="images/portfolio-item-4.jpg" alt="" height="350" />
+					<div class="item-info">
+						<h3 class="title"><a href="#">Enter title here</a></h3>
+					</div><!--END ITEM-INFO--> 	
+					<div class="item-info-overlay">
+					<div>
+						<h4>Web design</h4>	
+						<p>Etiam eget mi enim, non ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem.</p>
+						<a href="portfolio-single.html" class="view">details</a>
+						<a href="images/portfolio-item-4.jpg" class="preview" data-rel="prettyPhoto[web]">preview</a>									
+						</div>					
+					</div><!--END ITEM-INFO-OVERLAY-->
+				</div><!--END ITEM-->	
+			</li>
+								
+			<li class="web">
+				<div class="item">
+					<img src="images/portfolio-item-5.jpg" alt="" height="300" />
+					<div class="item-info">
+						<h3 class="title"><a href="#">Enter title here</a></h3>
+					</div><!--END ITEM-INFO--> 	
+					<div class="item-info-overlay">
+					<div>
+						<h4>Web design</h4>	
+						<p>Etiam eget mi enim, non ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem.</p>
+						<a href="portfolio-single.html" class="view">details</a>
+						<a href="images/portfolio-item-5.jpg" class="preview" data-rel="prettyPhoto[web]">preview</a>								
+					</div>					
+					</div><!--END ITEM-INFO-OVERLAY-->
+				</div><!--END ITEM-->	
+			</li>								
+								
+			<li class="logo">
+				<div class="item">
+					<img src="images/portfolio-item-6.jpg" alt="" />
+					<div class="item-info">
+						<h3 class="title"><a href="#">Enter title here</a></h3>
+					</div><!--END ITEM-INFO--> 	
+					<div class="item-info-overlay">
+					<div>
+						<h4>Web design</h4>	
+						<p>Etiam eget mi enim, non ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem.</p>
+						<a href="portfolio-single.html" class="view">details</a>
+						<a href="images/portfolio-item-6.jpg" class="preview" data-rel="prettyPhoto[web]">preview</a>									
+					</div>					
+					</div><!--END ITEM-INFO-OVERLAY-->
+				</div><!--END ITEM-->	
+			</li>					
+											
+			<li class="logo">	
+				<div class="item">
+					<img src="images/portfolio-item-7.jpg" alt="" />
+					<div class="item-info">
+						<h3 class="title"><a href="#">Enter title here</a></h3>
+					</div><!--END ITEM-INFO--> 	
+					<div class="item-info-overlay">
+					<div>
+						<h4>Web design</h4>	
+						<p>Etiam eget mi enim, non ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem.</p>
+						<a href="portfolio-single.html" class="view">details</a>
+						<a href="images/portfolio-item-7.jpg" class="preview" data-rel="prettyPhoto[web]">preview</a>									
+					</div>					
+					</div><!--END ITEM-INFO-OVERLAY-->
+				</div><!--END ITEM-->		
+			</li>
+												
+			<li class="logo">
+				<div class="item">
+					<img src="images/portfolio-item-8.jpg" alt="" />
+					<div class="item-info">
+						<h3 class="title"><a href="#">Enter title here</a></h3>
+					</div><!--END ITEM-INFO--> 	
+					<div class="item-info-overlay">
+					<div>
+						<h4>Web design</h4>	
+						<p>Etiam eget mi enim, non ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem.</p>
+						<a href="portfolio-single.html" class="view">details</a>
+						<a href="images/portfolio-item-8.jpg" class="preview" data-rel="prettyPhoto[web]">preview</a>										
+					</div>					
+					</div><!--END ITEM-INFO-OVERLAY-->
+				</div><!--END ITEM-->	
+			</li>	
+						
+			<li class="branding">	
+				<div class="item">
+					<img src="images/portfolio-item-9.jpg" alt="" />
+					<div class="item-info">
+						<h3 class="title"><a href="#">Enter title here</a></h3>
+					</div><!--END ITEM-INFO--> 	
+					<div class="item-info-overlay">
+					<div>
+						<h4>Web design</h4>	
+						<p>Etiam eget mi enim, non ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem.</p>
+						<a href="portfolio-single.html" class="view">details</a>
+						<a href="images/portfolio-item-9.jpg" class="preview" data-rel="prettyPhoto[web]">preview</a>									
+					</div>					
+					</div><!--END ITEM-INFO-OVERLAY-->
+				</div><!--END ITEM-->	
+			</li>	
+			
+			<li class="video">	
+				<div class="item">
+					<img src="images/portfolio-item-10.jpg" alt="" />
+					<div class="item-info">
+						<h3 class="title"><a href="#">Enter title here</a></h3>
+					</div><!--END ITEM-INFO--> 	
+					<div class="item-info-overlay">
+					<div>
+						<h4>Web design</h4>	
+						<p>Etiam eget mi enim, non ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem.</p>
+						<a href="portfolio-single.html" class="view">details</a>
+					<a href="http://www.youtube.com/watch?v=fer4JUpYWV0" data-rel="prettyPhoto[video]" class="preview">preview</a>									
+					</div>					
+					</div><!--END ITEM-INFO-OVERLAY-->
+				</div><!--END ITEM-->	
+			</li>
+												
+			<li class="video">
+				<div class="item">
+					<img src="images/portfolio-item-11.jpg" alt="" />
+					<div class="item-info">
+						<h3 class="title"><a href="#">Enter title here</a></h3>
+					</div><!--END ITEM-INFO--> 	
+					<div class="item-info-overlay">
+					<div>
+						<h4>Web design</h4>	
+						<p>Etiam eget mi enim, non ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem.</p>
+						<a href="portfolio-single.html" class="view">details</a>
+					<a href="http://vimeo.com/7874398" data-rel="prettyPhoto[video]" class="preview">preview</a>									
+					</div>					
+					</div><!--END ITEM-INFO-OVERLAY-->
+				</div><!--END ITEM-->	
+			</li>	
+												
+			<li class="video">
+				<div class="item">
+					<img src="images/portfolio-item-12.jpg" alt="" />
+					<div class="item-info">
+						<h3 class="title"><a href="#">Enter title here</a></h3>
+					</div><!--END ITEM-INFO--> 	
+					<div class="item-info-overlay">
+					<div>
+						<h4>Web design</h4>	
+						<p>Etiam eget mi enim, non ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem.</p>
+						<a href="portfolio-single.html" class="view">details</a>
+					<a href="http://www.adobe.com/products/flashplayer/include/marquee/design.swf?width=792&amp;height=294" data-rel="prettyPhoto[video]" class="preview">preview</a>												 					</div>					
+					</div><!--END ITEM-INFO-OVERLAY-->
+				</div><!--END ITEM-->	
+			</li>			
+				
+			<li class="branding">
+				<div class="item">
+					<img src="images/portfolio-item-1.jpg" alt="" />
+					<div class="item-info">
+						<h3 class="title"><a href="#">Enter title here</a></h3>
+					</div><!--END ITEM-INFO--> 	
+					<div class="item-info-overlay">
+					<div>
+						<h4>Web design</h4>	
+						<p>Etiam eget mi enim, non ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem.</p>
+						<a href="portfolio-single.html" class="view">details</a>
+						<a href="images/portfolio-item-1.jpg" class="preview" data-rel="prettyPhoto[web]">preview</a>									
+					</div>					
+					</div><!--END ITEM-INFO-OVERLAY-->
+				</div><!--END ITEM-->	
+			</li>
+								
+			<li class="web">
+				<div class="item">
+					<img src="images/portfolio-item-2.jpg" alt="" />
+					<div class="item-info">
+						<h3 class="title"><a href="#">Enter title here</a></h3>
+					</div><!--END ITEM-INFO--> 	
+					<div class="item-info-overlay">
+					<div>
+						<h4>Web design</h4>	
+						<p>Etiam eget mi enim, non ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem.</p>
+						<a href="portfolio-single.html" class="view">details</a>
+						<a href="images/portfolio-item-2.jpg" class="preview" data-rel="prettyPhoto[web]">preview</a>									
+					</div>					
+					</div><!--END ITEM-INFO-OVERLAY-->
+				</div><!--END ITEM-->	
+			</li>								
+								
+			<li class="logo">
+				<div class="item">
+					<img src="images/portfolio-item-3.jpg" alt="" />
+					<div class="item-info">
+						<h3 class="title"><a href="#">Enter title here</a></h3>
+					</div><!--END ITEM-INFO--> 	
+					<div class="item-info-overlay">
+					<div>
+						<h4>Web design</h4>	
+						<p>Etiam eget mi enim, non ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem.</p>
+						<a href="portfolio-single.html" class="view">details</a>
+						<a href="images/portfolio-item-3.jpg" class="preview" data-rel="prettyPhoto[web]">preview</a>									
+					</div>					
+					</div><!--END ITEM-INFO-OVERLAY-->
+				</div><!--END ITEM-->	
+			</li>
+											
+			<li class="logo">	
+				<div class="item">
+					<img src="images/portfolio-item-4.jpg" alt="" />
+					<div class="item-info">
+						<h3 class="title"><a href="#">Enter title here</a></h3>
+					</div><!--END ITEM-INFO--> 	
+					<div class="item-info-overlay">
+					<div>
+						<h4>Web design</h4>	
+						<p>Etiam eget mi enim, non ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem.</p>
+						<a href="portfolio-single.html" class="view">details</a>
+						<a href="images/portfolio-item-4.jpg" class="preview" data-rel="prettyPhoto[web]">preview</a>					
+					</div>					
+					</div><!--END ITEM-INFO-OVERLAY-->
+				</div><!--END ITEM-->	
+			</li>
+												
+			<li class="logo">
+				<div class="item">
+					<img src="images/portfolio-item-5.jpg" alt="" />
+					<div class="item-info">
+						<h3 class="title"><a href="#">Enter title here</a></h3>
+					</div><!--END ITEM-INFO--> 	
+					<div class="item-info-overlay">
+					<div>
+						<h4>Web design</h4>	
+						<p>Etiam eget mi enim, non ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem.</p>
+						<a href="portfolio-single.html" class="view">details</a>
+						<a href="images/portfolio-item-5.jpg" class="preview" data-rel="prettyPhoto[web]">preview</a>										
+					</div>					
+					</div><!--END ITEM-INFO-OVERLAY-->
+				</div><!--END ITEM-->	
+			</li>	
+						
+			<li class="branding">	
+				<div class="item">
+					<img src="images/portfolio-item-6.jpg" alt="" />
+					<div class="item-info">
+						<h3 class="title"><a href="#">Enter title here</a></h3>
+					</div><!--END ITEM-INFO--> 	
+					<div class="item-info-overlay">
+					<div>
+						<h4>Web design</h4>	
+						<p>Etiam eget mi enim, non ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem.</p>
+						<a href="portfolio-single.html" class="view">details</a>
+						<a href="images/portfolio-item-6.jpg" class="preview" data-rel="prettyPhoto[web]">preview</a>									
+					</div>					
+					</div><!--END ITEM-INFO-OVERLAY-->
+				</div><!--END ITEM-->	
+			</li>
+			
+			<li class="video">
+				<div class="item">
+					<img src="images/portfolio-item-7.jpg" alt="" />
+					<div class="item-info">
+						<h3 class="title"><a href="#">Enter title here</a></h3>
+					</div><!--END ITEM-INFO--> 	
+					<div class="item-info-overlay">
+					<div>
+						<h4>Web design</h4>	
+						<p>Etiam eget mi enim, non ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem.</p>
+						<a href="portfolio-single.html" class="view">details</a>
+						<a href="images/portfolio-item-7.jpg" class="preview" data-rel="prettyPhoto[web]">preview</a>										
+					</div>					
+					</div><!--END ITEM-INFO-OVERLAY-->
+				</div><!--END ITEM-->	
+			</li>
+												
+			<li class="video">
+				<div class="item">
+					<img src="images/portfolio-item-8.jpg" alt="" />
+					<div class="item-info">
+						<h3 class="title"><a href="#">Enter title here</a></h3>
+					</div><!--END ITEM-INFO--> 	
+					<div class="item-info-overlay">
+					<div>
+						<h4>Web design</h4>	
+						<p>Etiam eget mi enim, non ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem.</p>
+						<a href="portfolio-single.html" class="view">details</a>
+						<a href="images/portfolio-item-8.jpg" class="preview" data-rel="prettyPhoto[web]">preview</a>										
+					</div>					
+					</div><!--END ITEM-INFO-OVERLAY-->
+				</div><!--END ITEM-->	
+			</li>	
+												
+			<li class="video">
+				<div class="item">
+					<img src="images/portfolio-item-9.jpg" alt="" />
+					<div class="item-info">
+						<h3 class="title"><a href="#">Enter title here</a></h3>
+					</div><!--END ITEM-INFO--> 	
+					<div class="item-info-overlay">
+					<div>
+						<h4>Web design</h4>	
+						<p>Etiam eget mi enim, non ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem.</p>
+						<a href="portfolio-single.html" class="view">details</a>
+						<a href="images/portfolio-item-9.jpg" class="preview" data-rel="prettyPhoto[web]">preview</a>									
+					</div>					
+					</div><!--END ITEM-INFO-OVERLAY-->
+				</div><!--END ITEM-->	
+			</li>
+				
+		</ul><!--END THUMBS-->
+			
+	</div><!--END PORTFOLIO-GRID-->	
+	
+</div><!--END CONTENT-->	
+	
+</div><!--END CONTENT-WRAPPER-->
+	
+<div id="footer-wrapper">	
+	
+	<div class="footer">
+					
+		<div class="one-half">
+			<p>Copyright &copy; 2012 Brankic1979. All rights reserved.</p>
+		</div><!--END ONE-HALF-->	
+					
+		<div class="one-half text-align-right last">			
+			<p>Socialize with us on <a href="#">Twitter</a>, <a href="#">Facebook</a>, <a href="#">Dribbble</a> or <a href="#">Rss</a> -  <a class="trigger-footer button small grey rounded" href="#">View more stuff</a></p>
+		</div><!--END ONE-HALF LAST-->
+				
+	</div><!--END FOOTER-->	
+
+	<div class="footer-hidden">			
+			
+		<div class="footer-hidden-content">
+				
+			<div class="one-fourth">
+				<h3 class="title">About us</h3>	
+				<p>We provide original, quality,  attractive and functional design.</p><br />
+				<p><strong>Address</strong>: Street 9890, New Something 1234, Country<br />
+				<strong>Telephone</strong>: 1234 5678<br />
+				<strong>Fax</strong>: 9876 5432</p>
+				<p><a class="button small grey rounded" href="#">Email us</a></p>
+			</div><!--END ONE-FOURTH-->	
+					
+					
+			<div class="one-fourth">
+				<h3 class="title">Latest posts</h3>				
+				<ul class="latest-posts">												
+					<li>
+						<span class="date">June 29, 2012</span>
+						<a href="#">Erat nisl faucibus justo verit et quasi architecto beatae.</a>
+					</li>
+						
+					<li>
+						<span class="date">June 23, 2012</span>
+						<a href="#">Lorem ipsum dolor sit amet consectetur.</a>
+					</li>
+						
+					<li>
+						<span class="date">May 19, 2012</span>
+						<a href="#">Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</a>
+					</li>
+				</ul><!--END UL-->
+			</div><!--END ONE-FOURTH-->	
+					
+					
+			<div class="one-fourth">	
+				<h3 class="title">Latest tweets</h3>
+				<div class="tweets"></div><!--END TWEETS-->					
+			</div><!--END ONE-FOURTH-->
+					
+					
+			<div class="one-fourth last">
+				<h3 class="title">Flickr photostream</h3>	
+					<div class="photostream flickr_list_footer"></div><!--END PHOTOSTREAM FLICKR_LIST-->			
+					<script type="text/javascript">
+					$(document).ready(function(){
+						$('.flickr_list_footer').bra_photostream({user: 'aleksandra jovanic', 
+						limit:9, 
+						social_network: 'flickr'});
+					});	              
+					</script>			
+			</div><!--END ONE-FOURTH LAST-->	
+			
+		</div><!--END FOOTER-HIDDEN-CONTENT-->
+	
+	</div><!--END FOOTER-HIDDEN-->			
+	
+</div><!--END FOOTER-WRAPPER-->
+
+</div><!--END WRAPPER-->
+
+<!-- Theme Option --> 
+<script type="text/javascript" src="javascript/theme-option.js"></script>
+
+<div id="panel" style="margin-left:-210px;">
+		
+	<div id="panel-admin">
+		
+		<strong>Colors</strong> <br />
+		<select id="colors">
+		  <option value="">--</option>
+		  <option value="blue">Blue</option>
+		  <option value="navyblue">Navyblue</option>
+		  <option value="orange">Orange</option>
+		  <option value="yellow">Yellow</option>
+		  <option value="green">Green</option>
+		  <option value="tealgreen">Tealgreen</option>
+		  <option value="red">Red</option>
+		  <option value="pink">Pink</option>
+		  <option value="purple">Purple</option>
+		  <option value="magenta">Magenta</option>
+		  <option value="cream">Cream</option>
+		</select>
+		
+		<strong>Skin</strong> <br />
+		<select id="skin">
+		  <option value="">--</option>
+		  <option value="light">Light</option>
+		  <option value="grey">Grey</option>
+		  <option value="dark">Dark</option>
+		</select>
+<br /><br /><br />
+
+	</div><!--PANEL-ADMIN-->	
+	
+	<a class="open" href="#"></a>
+
+</div><!--PANEL-->
+
+</body>
+
+<!-- Mirrored from demo.brankic.net/vertigohtml/light/portfolio2.html by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 30 Jan 2013 10:42:29 GMT -->
+</html>

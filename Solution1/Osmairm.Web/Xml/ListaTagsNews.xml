@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<News>
+	 
+
+  <TipoNews>
+  <TipoNews_Item>
+    <Descrizione_Tipologia>Riabilitazione</Descrizione_Tipologia>
+    <Id_TipologiaNews></Id_TipologiaNews>
+
+  </TipoNews_Item>
+  </TipoNews>
+
+  <TipoNews>
+    <TipoNews_Item>
+      <Descrizione_Tipologia>Osmairm Laterza</Descrizione_Tipologia>
+      <Id_TipologiaNews></Id_TipologiaNews>
+
+    </TipoNews_Item>
+  </TipoNews>
+
+  <TipoNews>
+    <TipoNews_Item>
+      <Descrizione_Tipologia>Magazine</Descrizione_Tipologia>
+      <Id_TipologiaNews></Id_TipologiaNews>
+
+    </TipoNews_Item>
+  </TipoNews>
+
+  <TipoNews>
+    <TipoNews_Item>
+      <Descrizione_Tipologia>Formazione</Descrizione_Tipologia>
+      <Id_TipologiaNews></Id_TipologiaNews>
+
+    </TipoNews_Item>
+  </TipoNews>
+
+  <TipoNews>
+    <TipoNews_Item>
+      <Descrizione_Tipologia>Altre sedi</Descrizione_Tipologia>
+      <Id_TipologiaNews></Id_TipologiaNews>
+
+    </TipoNews_Item>
+  </TipoNews>
+
+</News>

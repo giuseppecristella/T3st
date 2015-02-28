@@ -1,0 +1,5 @@
+C:\Progetti\Osmairm\osm\BaseFramework\Web.BaseFramework\bin\Debug\Web.BaseFramework.dll
+C:\Progetti\Osmairm\osm\BaseFramework\Web.BaseFramework\bin\Debug\Web.BaseFramework.pdb
+C:\Progetti\Osmairm\osm\BaseFramework\Web.BaseFramework\obj\Debug\Web.BaseFramework.csprojResolveAssemblyReference.cache
+C:\Progetti\Osmairm\osm\BaseFramework\Web.BaseFramework\obj\Debug\Web.BaseFramework.dll
+C:\Progetti\Osmairm\osm\BaseFramework\Web.BaseFramework\obj\Debug\Web.BaseFramework.pdb

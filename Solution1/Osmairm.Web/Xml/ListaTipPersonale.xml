@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<News>
+  <TipoNews>
+  <TipoNews_Item>
+    <Descrizione_Tipologia>amministrazione</Descrizione_Tipologia>
+    <Id_TipologiaNews>12</Id_TipologiaNews>
+  </TipoNews_Item>
+  </TipoNews>
+  <TipoNews>
+    <TipoNews_Item>
+      <Descrizione_Tipologia>direzione medico sanitaria</Descrizione_Tipologia>
+      <Id_TipologiaNews>10</Id_TipologiaNews>
+    </TipoNews_Item>
+  </TipoNews>
+ <TipoNews>
+    <TipoNews_Item>
+      <Descrizione_Tipologia>ufficio tecnico</Descrizione_Tipologia>
+      <Id_TipologiaNews>11</Id_TipologiaNews>
+    </TipoNews_Item>
+  </TipoNews>
+ <TipoNews>
+    <TipoNews_Item>
+      <Descrizione_Tipologia>comunicazione e marketing</Descrizione_Tipologia>
+      <Id_TipologiaNews>13</Id_TipologiaNews>
+    </TipoNews_Item>
+  </TipoNews>
+</News>

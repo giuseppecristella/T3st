@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<markers>
+  
+  <itinerario id="strutture-osmairm">
+    <marker>
+      <lat>40.61710</lat>
+      <long>16.79849</long>
+      <title><![CDATA[Laterza]]></title>
+      <img></img>
+      <imgMappa><![CDATA[<img src="/export/sites/default/.content/images/02_ottonavate_arsenali-medicei.JPG_1628040651.jpg" width="98" height="56" />]]></imgMappa>
+      <descr>
+        <![CDATA[<p><br>Via Cappuccini, 9
+<br><b>Referente:</b> <br>Dott. Roberto Semeraro</br>
+tel: +39 099 8216216</br>
+<b>laterza@osmairm.it</b></p>]]>
+      </descr>
+      <link>http://www.osmairm.it/Strutture.aspx#struttura-1</link>
+      <color>f3a9bb</color>
+      <type></type>
+    </marker>
+    <marker>
+      <lat>40.35912</lat>
+      <long>17.50190</long>
+      <title>
+        <![CDATA[Torricella]]></title>
+      <img></img>
+      <imgMappa><![CDATA[<img src="images/bandiera_it.png" width="98" height="56" />]]></imgMappa>
+      <descr>
+        <![CDATA[<p><br>Via per Sava
+<br><b>Referente:</b> <br>Marilena Maiezza</br>
+tel: +39 099 9573437</br>
+<b>torricella@osmairm.it</b></p>]]>
+      </descr>
+      <link></link>
+      <color>f3a9bb</color>
+      <type>museo</type>
+    </marker>
+    <marker>
+      <lat>40.63489</lat>
+      <long>16.92638</long>
+      <title><![CDATA[Castellaneta]]></title>
+      <img></img>
+      <imgMappa><![CDATA[<img src="/export/sites/default/.content/images/099_torre-Guelfa.jpg_1628040651.jpg" width="98" height="56" />]]></imgMappa>
+      <descr>
+        <![CDATA[<p><br>Via S. Martino P.co Le Ginestre
+<br><b>Referente:</b> <br>Rossana Giandomenico</br>
+tel: +39 099 8491325</br>
+<b>castellaneta@osmairm.it</b></p>]]>
+      </descr>
+      <link>/it/cultura/dettaglio/Torre-della-Cittadella-e-Cittadella-Vecchia/</link>
+      <color>f3a9bb</color>
+      <type>palazzo_storico</type>
+    </marker>
+    <marker>
+      <lat>40.60344</lat>
+      <long>17.22846</long>
+      <title><![CDATA[Crispiano]]></title>
+      <img>/export/sites/default/.content/images/046_Bronzino_Eleonora-Toledo-e-figlio.jpg</img>
+      <imgMappa><![CDATA[<img src="/export/sites/default/.content/images/046_Bronzino_Eleonora-Toledo-e-figlio.jpg_1628040651.jpg" width="98" height="56" />]]></imgMappa>
+      <descr>
+        <![CDATA[<p><br>C.so Umberto, 284
+<br><b>Referente:</b> <br>Tina Abbracciavento</br>
+tel: +39 099 614155</br>
+<b>crispiano@osmairm.it</b></p>]]>
+      </descr>
+      <link>/it/cultura/dettaglio/Museo-Nazionale-di-Palazzo-Reale-00001/</link>
+      <color>f3a9bb</color>
+      <type>museo</type>
+    </marker>
+    <marker>
+      <lat>40.56757</lat>
+      <long>16.76409</long>
+      <title><![CDATA[Ginosa]]></title>
+      <img>/export/sites/default/.content/images/072_p_za_Carrara_APT.jpg</img>
+      <imgMappa><![CDATA[<img src="/export/sites/default/.content/images/072_p_za_Carrara_APT.jpg_1628040651.jpg" width="98" height="56" />]]></imgMappa>
+      <descr>
+        <![CDATA[<p><br>Via Cavese s.n.c.
+<br><b>Referente:</b> <br>Rossana Giandomenico</br>
+tel: +39 099 8244917</br>
+<b>ginosa@osmairm.it</b></p>]]>
+      </descr>
+      <link>/it/cultura/dettaglio/Piazza-Carrara-00002/</link>
+      <color>f3a9bb</color>
+      <type>architettura_urbana</type>
+    </marker>
+    <marker>
+      <lat>40.40261</lat>
+      <long>17.63572</long>
+      <title><![CDATA[Manduria]]></title>
+      <img>/export/sites/default/.content/images/061_facciata_palazzo-Lanfreducci.JPG</img>
+      <imgMappa><![CDATA[<img src="/export/sites/default/.content/images/061_facciata_palazzo-Lanfreducci.JPG_1628040651.jpg" width="98" height="56" />]]></imgMappa>
+      <descr>
+        <![CDATA[<p><br>Via Smaldone Filippo s.n.c
+<br><b>Referente:</b> <br>Annalina Cristella</br>
+tel: +39 099 9711252</br>
+<b>manduria@osmairm.it</b></p>]]>
+      </descr>
+      <link>/it/cultura/dettaglio/Palazzo-Lanfreducci-detto-Alla-Giornata/</link>
+      <color>f3a9bb</color>
+      <type>palazzo_storico</type>
+    </marker>
+    <marker>
+      <lat>40.70359</lat>
+      <long>17.34463</long>
+      <title><![CDATA[Martina Franca]]></title>
+      <img>/export/sites/default/.content/images/S.-Maria_galletti-web.jpg</img>
+      <imgMappa><![CDATA[<img src="/export/sites/default/.content/images/S.-Maria_galletti-web.jpg_1628040651.jpg" width="98" height="56" />]]></imgMappa>
+      <descr>
+        <![CDATA[<p><br>Via Orazio Flacco
+<br><b>Referente:</b> <br>Anna Lisi</br>
+tel: +39 080 4839495</br>
+<b>martinafranca@osmairm.it</b></p>]]>
+      </descr>
+      <link>/it/cultura/dettaglio/Chiesa-di-Santa-Maria-dei-Galletti-00003/</link>
+      <color>f3a9bb</color>
+      <type>edificio_religioso</type>
+    </marker>
+    <marker>
+      <lat>40.63738</lat>
+      <long>17.03066</long>
+      <title><![CDATA[Mottola]]></title>
+      <img>/export/sites/default/.content/images/071_p_za_cairoli_berlina.jpg</img>
+      <imgMappa><![CDATA[<img src="/export/sites/default/.content/images/071_p_za_cairoli_berlina.jpg_1628040651.jpg" width="98" height="56" />]]></imgMappa>
+      <descr>
+        <![CDATA[<p><br>Via Catalani, 16
+<br><b>Referente:</b> <br>Anna Ladisi</br>
+tel: +39 099 8861258</br>
+<b>mottola@osmairm.it</b></p>]]>
+      </descr>
+      <link>/it/cultura/dettaglio/Piazza-Cairoli-gi-dei-Cavoli-poi-della-Berlina/</link>
+      <color>f3a9bb</color>
+      <type>architettura_urbana</type>
+    </marker>
+    <marker>
+      <lat>40.579077</lat>
+      <long>17.035966</long>
+      <title><![CDATA[Palagiano]]></title>
+      <img>/export/sites/default/.content/images/017_facciata_S.Pietro-Vinculis.JPG</img>
+      <imgMappa><![CDATA[<img src="/export/sites/default/.content/images/017_facciata_S.Pietro-Vinculis.JPG_1628040651.jpg" width="98" height="56" />]]></imgMappa>
+      <descr>
+        <![CDATA[<p><br>Via Scarcella, 11
+<br><b>Referente:</b> <br>Rossana Giandomenico</br>
+tel: +39 099 8841299</br>
+<b>palagiano@osmairm.it</b></p>]]>
+      </descr>
+      <link>/it/cultura/dettaglio/Chiesa-di-San-Pietro-in-Vincoli-00002/</link>
+      <color>f3a9bb</color>
+      <type>edificio_religioso</type>
+    </marker>
+    <marker>
+      <lat>40.611073</lat>
+      <long>16.973774</long>
+      <title><![CDATA[Palagianello]]></title>
+      <img>/export/sites/default/.content/images/069_nuovo-fronte_Toscanelli.jpg</img>
+      <imgMappa><![CDATA[<img src="/export/sites/default/.content/images/069_nuovo-fronte_Toscanelli.jpg_1628040651.jpg" width="98" height="56" />]]></imgMappa>
+      <descr>
+        <![CDATA[<p><br>Via Matteotti, 45
+<br><b>Referente:</b> <br>Rossana Giandomenico</br>
++39 099 8444899</br>
+<b>palagianello@osmairm.it</b></p>]]>
+      </descr>
+      <link></link>
+      <color></color>
+      <type></type>
+    </marker>
+    <marker>
+      <lat>40.45889</lat>
+      <long>17.38269</long>
+      <title><![CDATA[San Giorgio Jonico]]></title>
+      <img></img>
+      <imgMappa><![CDATA[<img src="/export/sites/default/.content/images/062_ristrutturazione-neogotica.jpg_1628040651.jpg" width="98" height="56" />]]></imgMappa>
+      <descr>
+        <![CDATA[<p><br> 
+<br><b>Referente:</b> <br>Fiorella Mongelli</br>
+tel: +39 099 5918628</br>
+<b>sangiorgiojonico@osmairm.it</b></p>]]>
+      </descr>
+      <link></link>
+      <color></color>
+      <type></type>
+    </marker>
+    <marker>
+      <lat>40.46184</lat>
+      <long>17.27199</long>
+      <title><![CDATA[Taranto]]></title>
+      <img></img>
+      <imgMappa><![CDATA[<img src="/export/sites/default/.content/images/049_strutture-caustrali_S.Matteo_alternativa.jpg_1628040651.jpg" width="98" height="56" />]]></imgMappa>
+      <descr>
+        <![CDATA[<p><br> 
+<br><b>Referente:</b> <br>Cinzia Maurice</br>
+tel: +39 099 7793291</br>
+<b>taranto@osmairm.it</b></p>]]>
+      </descr>
+      <link></link>
+      <color></color>
+      <type></type>
+    </marker>
+    <marker>
+      <lat>40.37911</lat>
+      <long>17.35815</long>
+      <title><![CDATA[Pulsano]]></title>
+      <img></img>
+      <imgMappa><![CDATA[<img src="/export/sites/default/.content/images/022_chiesa-S.Matteo.jpg_1628040651.jpg" width="98" height="56" />]]></imgMappa>
+      <descr>
+        <![CDATA[<p><br>
+<br><b>Referente:</b> <br>Marilena Maiezza</br>
+tel: +39 099 5339412</br>
+<b>pulsano@osmairm.it</b></p>]]>
+      </descr>
+      <link></link>
+      <color>f3a9bb</color>
+      <type></type>
+    </marker>
+    
+  </itinerario>
+</markers>

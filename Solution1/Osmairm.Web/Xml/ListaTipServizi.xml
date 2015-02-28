@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<News>
+	 
+
+  <TipoNews>
+  <TipoNews_Item>
+    <Descrizione_Tipologia>Servizio 1</Descrizione_Tipologia>
+    <Id_TipologiaNews>30</Id_TipologiaNews>
+
+  </TipoNews_Item>
+  </TipoNews>
+
+  <TipoNews>
+    <TipoNews_Item>
+      <Descrizione_Tipologia>Servizio 2</Descrizione_Tipologia>
+      <Id_TipologiaNews>31</Id_TipologiaNews>
+
+    </TipoNews_Item>
+  </TipoNews>
+
+
+  <TipoNews>
+    <TipoNews_Item>
+      <Descrizione_Tipologia>Servizio 3</Descrizione_Tipologia>
+      <Id_TipologiaNews>32</Id_TipologiaNews>
+
+    </TipoNews_Item>
+  </TipoNews>
+
+  <TipoNews>
+    <TipoNews_Item>
+      <Descrizione_Tipologia>Servizio 4</Descrizione_Tipologia>
+      <Id_TipologiaNews>33</Id_TipologiaNews>
+
+    </TipoNews_Item>
+  </TipoNews>
+</News>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<News>
+	 
+
+  <TipoNews>
+  <TipoNews_Item>
+    <Descrizione_Tipologia>Sede Laterza</Descrizione_Tipologia>
+    <Id_TipologiaNews>21</Id_TipologiaNews>
+
+  </TipoNews_Item>
+  </TipoNews>
+
+  <TipoNews>
+    <TipoNews_Item>
+      <Descrizione_Tipologia>Sede 2</Descrizione_Tipologia>
+      <Id_TipologiaNews>22</Id_TipologiaNews>
+
+    </TipoNews_Item>
+  </TipoNews>
+
+
+  <TipoNews>
+    <TipoNews_Item>
+      <Descrizione_Tipologia>Sede 3</Descrizione_Tipologia>
+      <Id_TipologiaNews>23</Id_TipologiaNews>
+
+    </TipoNews_Item>
+  </TipoNews>
+
+  <TipoNews>
+    <TipoNews_Item>
+      <Descrizione_Tipologia>Sede 4</Descrizione_Tipologia>
+      <Id_TipologiaNews>24</Id_TipologiaNews>
+
+    </TipoNews_Item>
+  </TipoNews>
+</News>

@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<%@ Register Src="~/UserControls/NewletterUC.ascx" TagPrefix="uc1" TagName="NewletterUC" %>
+<%@ Register Src="~/UserControls/HeaderUC.ascx" TagPrefix="uc1" TagName="HeaderUC" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <asp:Literal runat="server" ID="ltrMetaFB"></asp:Literal>
+    <asp:ContentPlaceHolder ID="ContentMeta" runat="server">
+    </asp:ContentPlaceHolder>
+    <title>Osmairm</title>
+    <!--[if lt IE 8]>
+	<link href="css/ie8.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+    <asp:Literal runat="server" ID="ltrCssStyleSheets"></asp:Literal>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+    <asp:Literal runat="server" ID="ltrJavascripts"></asp:Literal>
+    <script type="text/javascript" src="javascript/jquery.scrollTo.js"></script>
+    <script type="text/javascript" src="javascript/jquery.nav.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $('#navigoss').onePageNav();
+        });
+    </script>
+    <asp:ContentPlaceHolder ID="cphHead" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+</head>
+<body>
+    <div id="form1" runat="server">
+        <div id="wrapper">
+            <div id="header-wrapper">
+                <uc1:HeaderUC runat="server" ID="HeaderUC" />
+            </div>
+            <uc1:NewletterUC runat="server" ID="NewletterUC" />
+            <div id="content-wrapper">
+                <asp:ContentPlaceHolder ID="cphMain" runat="server">
+                    aa
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="footer-wrapper">
+                <div class="footer">
+                    <div class="one-half">
+                        <p>
+                            <a target="_blank" href="Login/Login.aspx">Area Riservata</a> /
+                            Copyright &copy; 2013 Osmairm. Tutti i diritti riservati. 
+                        </p>
+                    </div>
+                    <div class="one-half text-align-right last">
+                        <p>
+                            Puoi seguirci anche su <a href="#">Facebook</a> - <a class="button small grey rounded"
+                                target="_blank" href="http://www.zoom2design.com">Credits</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="javascript/jquery.flexslider.js"></script>
+    </div>
+</body>
+</html>

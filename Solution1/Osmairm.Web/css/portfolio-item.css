@@ -1,0 +1,90 @@
+.item-details ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.item-details ul li {
+    margin-bottom: 3px;
+}
+.item-details  h1.title {
+	font: bold 3.3em/1.1 Helvetica, Arial, sans-serif;
+	letter-spacing: -1px;
+	margin: 0 0 15px 0;
+}
+.item-details strong {
+	text-transform: uppercase;
+	color: #999999;
+}
+.item-details a {
+	font-weight: bold;
+}
+/*--------------------------------------------------
+			ITEM NAVIGATION
+---------------------------------------------------*/
+ul.item-nav {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.item-nav li {
+	float: left;
+	margin-left: 1px;
+	background: #333;
+	-webkit-transition:all 0.14s ease 0s; 
+	-moz-transition:all 0.14s ease 0s; 
+	-o-transition:all 0.14s ease 0s; 
+}
+ul.item-nav li:hover {
+}
+ul.item-nav li a {
+	background: url(../images/sprite.png) no-repeat scroll 0 0 transparent;
+	display: block;
+	height: 45px;
+	width: 45px;
+	text-indent: -9999px;
+	-webkit-transition-duration: 0s; 
+	-moz-transition-duration: 0s; 
+	-o-transition-duration: 0s; 
+}
+ul.item-nav li.prev a {
+	background-position: 17px -115px;
+}
+ul.item-nav li.prev a:hover {
+	background-position: 17px -149px;
+}
+ul.item-nav li.next a {
+    background-position: 17px -182px;
+}
+ul.item-nav li.next a:hover {
+    background-position: 17px -216px;
+}
+ul.item-nav li.all a {
+    background-position: -27px -250px;
+}
+ul.item-nav li.all a:hover {
+    background-position: -27px -284px;
+}
+ul.item-nav li.close a {
+    background-position: 13px -250px;
+}
+ul.item-nav li.close a:hover {
+    background-position: 13px -284px;
+}
+
+/*---------------iPad portrait---------------*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+.item-details.description { margin-bottom: 15px; padding-bottom: 40px; border-bottom: 1px solid #eee; }
+}
+
+/*---------------iPhone landscape---------------*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.item-details.description { margin-bottom: 15px; padding-bottom: 40px; border-bottom: 1px solid #eee; }
+.item-details  h1.title { font-size: 2.3em; }
+}
+
+/*---------------iPhone portrait---------------*/
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+.item-details.description { margin-bottom: 15px; padding-bottom: 40px; border-bottom: 1px solid #eee; }
+.item-details  h1.title { font-size: 2.3em; }
+}
